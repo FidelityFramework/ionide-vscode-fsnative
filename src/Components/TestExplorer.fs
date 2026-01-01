@@ -9,7 +9,7 @@ open Ionide.FsNative.VSCode.FSharp.Import
 open Ionide.FsNative.VSCode.FSharp.Import.XmlDoc
 open Fable.Core.JsInterop
 open DTO
-open Ionide.FsNative.VSCode.Helpers
+open Ionide.VSCode.Helpers
 
 module node = Node.Api
 
@@ -527,8 +527,8 @@ module DotnetCli =
     type StandardError = string
 
     module Process =
-        open Ionide.FsNative.VSCode.Helpers.CrossSpawn
-        open Ionide.FsNative.VSCode.Helpers.Process
+        open Ionide.VSCode.Helpers.CrossSpawn
+        open Ionide.VSCode.Helpers.Process
         open Node.ChildProcess
 
         let private cancelErrorMessage = "SIGINT"

@@ -6,8 +6,8 @@ open Fable.Import.VSCode
 open Fable.Import.VSCode.Vscode
 
 open DTO
-open Ionide.FsNative.VSCode.Helpers
-open Ionide.FsNative.VSCode.Helpers.Process
+open Ionide.VSCode.Helpers
+open Ionide.VSCode.Helpers.Process
 
 module node = Node.Api
 

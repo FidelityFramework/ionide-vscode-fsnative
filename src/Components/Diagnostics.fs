@@ -7,7 +7,7 @@ open Fable.Import.VSCode
 open Fable.Import.VSCode.Vscode
 open JsInterop
 
-open Ionide.FsNative.VSCode.Helpers
+open Ionide.VSCode.Helpers
 
 module node = Node.Api
 

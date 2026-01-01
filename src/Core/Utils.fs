@@ -391,7 +391,7 @@ module Context =
 
 open Fable.Import
 open Fable.Core
-open Ionide.FsNative.VSCode.Helpers
+open Ionide.VSCode.Helpers
 
 [<AllowNullLiteral>]
 type ShowStatus private (panel: WebviewPanel, body: string) as this =

@@ -8,7 +8,7 @@ module Environment =
 
     open Fable.Core
     open Fable.Core.JsInterop
-    open Ionide.FsNative.VSCode.Helpers
+    open Ionide.VSCode.Helpers
 
     module node = Node.Api
 

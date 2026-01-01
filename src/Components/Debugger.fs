@@ -4,7 +4,7 @@ open Fable.Core
 open Fable.Core.JsInterop
 open Fable.Import.VSCode
 open Fable.Import.VSCode.Vscode
-open Ionide.FsNative.VSCode.Helpers
+open Ionide.VSCode.Helpers
 open DTO
 
 module node = Node.Api

@@ -2,7 +2,7 @@ namespace Ionide.FsNative.VSCode.FSharp
 
 open Fable.Import.VSCode
 open Fable.Import.VSCode.Vscode
-open Ionide.FsNative.VSCode.Helpers
+open Ionide.VSCode.Helpers
 open Fable.Core
 
 module Fsdn =
