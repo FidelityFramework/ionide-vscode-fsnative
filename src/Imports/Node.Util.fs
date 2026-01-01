@@ -1,4 +1,4 @@
-module Ionide.VSCode.FSharp.Node.Util
+module Ionide.FsNative.VSCode.FSharp.Node.Util
 
 open System
 open Fable.Core

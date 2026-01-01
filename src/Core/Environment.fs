@@ -1,4 +1,4 @@
-namespace Ionide.VSCode.FSharp
+namespace Ionide.FsNative.VSCode.FSharp
 
 //---------------------------------------------------
 //Find path of F# install and FSI path
@@ -8,7 +8,7 @@ module Environment =
 
     open Fable.Core
     open Fable.Core.JsInterop
-    open Ionide.VSCode.Helpers
+    open Ionide.FsNative.VSCode.Helpers
 
     module node = Node.Api
 

@@ -1,10 +1,10 @@
 // Prompt users to add VSCode lines to their gitignore if the config is set
-namespace Ionide.VSCode.FSharp
+namespace Ionide.FsNative.VSCode.FSharp
 
 module Gitignore =
 
     open Fable.Import.VSCode.Vscode
-    open Ionide.VSCode.FSharp
+    open Ionide.FsNative.VSCode.FSharp
 
     module node = Node.Api
 

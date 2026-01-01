@@ -1,13 +1,13 @@
 [<CompilationRepresentation(CompilationRepresentationFlags.ModuleSuffix)>]
-module Ionide.VSCode.FSharp
+module Ionide.FsNative.VSCode.FSharp
 
 open System
 open Fable.Core
 open Fable.Core.JsInterop
 open Fable.Import.VSCode
 open Fable.Import.VSCode.Vscode
-open Ionide.VSCode.Helpers
-open Ionide.VSCode.FSharp
+open Ionide.FsNative.VSCode.Helpers
+open Ionide.FsNative.VSCode.FSharp
 open Node.ChildProcess
 
 let private logger =

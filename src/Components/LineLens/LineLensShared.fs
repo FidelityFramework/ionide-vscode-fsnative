@@ -1,4 +1,4 @@
-module Ionide.VSCode.FSharp.LineLensShared
+module Ionide.FsNative.VSCode.FSharp.LineLensShared
 
 open System.Collections.Generic
 open Fable.Core

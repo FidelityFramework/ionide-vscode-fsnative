@@ -1,4 +1,4 @@
-module Ionide.VSCode.FSharp.PipelineHints
+module Ionide.FsNative.VSCode.FSharp.PipelineHints
 
 open System.Collections.Generic
 open Fable.Core

@@ -1,4 +1,4 @@
-namespace Ionide.VSCode.FSharp
+namespace Ionide.FsNative.VSCode.FSharp
 
 open System
 open Fable.Import.VSCode
@@ -391,7 +391,7 @@ module Context =
 
 open Fable.Import
 open Fable.Core
-open Ionide.VSCode.Helpers
+open Ionide.FsNative.VSCode.Helpers
 
 [<AllowNullLiteral>]
 type ShowStatus private (panel: WebviewPanel, body: string) as this =
