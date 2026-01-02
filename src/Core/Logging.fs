@@ -168,3 +168,10 @@ module Logging =
 
 
     let defaultOutputChannel = window.createOutputChannel "Ionide"
+
+    /// Dedicated output channel for native F# (FNCS) logging
+    let nativeOutputChannel = window.createOutputChannel "F# (Native)"
+
+    /// Logger for native F# operations
+    let nativeLogger =
+        ConsoleAndOutputChannelLogger(Some "FsNative", Level.DEBUG, Some nativeOutputChannel, Some Level.DEBUG)

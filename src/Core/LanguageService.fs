@@ -710,9 +710,9 @@ Consider:
             opts.synchronize <- Some synch
             opts.errorHandler <- Some errorHandling
             opts.revealOutputChannelOn <- Some Client.RevealOutputChannelOn.Never
-            // Worth keeping around for debug purposes
-            // opts.traceOutputChannel <- Some defaultOutputChannel
-            // opts.outputChannel <- Some defaultOutputChannel
+            // Route server output to the native output channel for visibility
+            opts.traceOutputChannel <- Some nativeOutputChannel
+            opts.outputChannel <- Some nativeOutputChannel
             opts.initializationFailedHandler <- Some(!!initializationFailureHandler)
 
             opts.initializationOptions <- Some !^(Some initOpts)

@@ -57,7 +57,7 @@
           "light": "#919191"
         },
         "description": "Foreground color for F# LineLenses",
-        "id": "fidelity.linelens"
+        "id": "ionide.fsnative.linelens"
       },
       {
         "defaults": {
@@ -66,7 +66,7 @@
           "light": "#919191"
         },
         "description": "Foreground color for F# Pipeline Hints",
-        "id": "fidelity.pipelineHints"
+        "id": "ionide.fsnative.pipelineHints"
       },
       {
         "defaults": {
@@ -75,7 +75,7 @@
           "light": "#FFCC00"
         },
         "description": "Text colors for warnings shown in the status bar",
-        "id": "fidelity.statusBarWarnings"
+        "id": "ionide.fsnative.statusBarWarnings"
       }
     ],
     "commands": [
@@ -120,7 +120,7 @@
         "title": "FSI: Open Watcher"
       },
       {
-        "command": "fidelity.scriptrunner.run",
+        "command": "ionide-fsnative.scriptrunner.run",
         "icon": {
           "dark": "./images/run-dark.svg",
           "light": "./images/run-light.svg"
@@ -128,7 +128,7 @@
         "title": "F#: Run script"
       },
       {
-        "command": "fidelity.NewProject",
+        "command": "ionide-fsnative.NewProject",
         "icon": {
           "dark": "./images/add-dark.svg",
           "light": "./images/add-light.svg"
@@ -136,27 +136,27 @@
         "title": "F#: New Project"
       },
       {
-        "command": "fidelity.AddFileToProject",
+        "command": "ionide-fsnative.AddFileToProject",
         "title": "F#: Add Current File To Project"
       },
       {
-        "command": "fidelity.getHelp",
+        "command": "ionide-fsnative.getHelp",
         "title": "F#: Get Help"
       },
       {
-        "command": "fidelity.generateDoc",
+        "command": "ionide-fsnative.generateDoc",
         "title": "F#: Generate Documentation"
       },
       {
-        "command": "fidelity.clearCache",
+        "command": "ionide-fsnative.clearCache",
         "title": "F#: Clear Project Cache"
       },
       {
-        "command": "fidelity.changeWorkspace",
+        "command": "ionide-fsnative.changeWorkspace",
         "title": "F#: Change Workspace or Solution"
       },
       {
-        "command": "fidelity.fsdn",
+        "command": "ionide-fsnative.fsdn",
         "title": "F#: Search by signatures on FSDN"
       },
       {
@@ -200,7 +200,7 @@
         "title": "MSBuild: Clean current solution"
       },
       {
-        "command": "fidelity.explorer.moveUp",
+        "command": "ionide-fsnative.explorer.moveUp",
         "icon": {
           "dark": "./images/up-mono-dark.svg",
           "light": "./images/up-mono-light.svg"
@@ -208,7 +208,7 @@
         "title": "Move file up"
       },
       {
-        "command": "fidelity.explorer.moveDown",
+        "command": "ionide-fsnative.explorer.moveDown",
         "icon": {
           "dark": "./images/down-mono-dark.svg",
           "light": "./images/down-mono-light.svg"
@@ -216,31 +216,31 @@
         "title": "Move file down"
       },
       {
-        "command": "fidelity.explorer.renameFile",
+        "command": "ionide-fsnative.explorer.renameFile",
         "title": "Rename file"
       },
       {
-        "command": "fidelity.explorer.removeFile",
+        "command": "ionide-fsnative.explorer.removeFile",
         "title": "Remove file"
       },
       {
-        "command": "fidelity.explorer.addAbove",
+        "command": "ionide-fsnative.explorer.addAbove",
         "title": "Add file above"
       },
       {
-        "command": "fidelity.explorer.addBelow",
+        "command": "ionide-fsnative.explorer.addBelow",
         "title": "Add file below"
       },
       {
-        "command": "fidelity.explorer.addFile",
+        "command": "ionide-fsnative.explorer.addFile",
         "title": "Add file"
       },
       {
-        "command": "fidelity.explorer.addExistingFile",
+        "command": "ionide-fsnative.explorer.addExistingFile",
         "title": "Add existing file"
       },
       {
-        "command": "fidelity.explorer.showProjectLoadFailedInfo",
+        "command": "ionide-fsnative.explorer.showProjectLoadFailedInfo",
         "icon": {
           "dark": "./images/icon-status-dark.svg",
           "light": "./images/icon-status-light.svg"
@@ -248,7 +248,7 @@
         "title": "Show info about failed project loading"
       },
       {
-        "command": "fidelity.explorer.showProjectStatus",
+        "command": "ionide-fsnative.explorer.showProjectStatus",
         "icon": {
           "dark": "./images/icon-status-dark.svg",
           "light": "./images/icon-status-light.svg"
@@ -256,15 +256,15 @@
         "title": "Show project status"
       },
       {
-        "command": "fidelity.explorer.addProjecRef",
+        "command": "ionide-fsnative.explorer.addProjecRef",
         "title": "Add project reference"
       },
       {
-        "command": "fidelity.explorer.removeProjecRef",
+        "command": "ionide-fsnative.explorer.removeProjecRef",
         "title": "Remove project reference"
       },
       {
-        "command": "fidelity.explorer.openProjectFile",
+        "command": "ionide-fsnative.explorer.openProjectFile",
         "icon": {
           "dark": "images/open-file-mono-dark.svg",
           "light": "images/open-file-mono-light.svg"
@@ -272,52 +272,52 @@
         "title": "Open project file"
       },
       {
-        "command": "fidelity.explorer.refresh",
+        "command": "ionide-fsnative.explorer.refresh",
         "title": "Refresh Explorer"
       },
       {
-        "command": "fidelity.explorer.clearCache",
+        "command": "ionide-fsnative.explorer.clearCache",
         "title": "Clear project cache"
       },
       {
         "category": "F#",
-        "command": "fidelity.diagnostics.getInfos",
+        "command": "ionide-fsnative.diagnostics.getInfos",
         "title": "Get info for diagnostics"
       },
       {
-        "command": "fidelity.explorer.msbuild.build",
+        "command": "ionide-fsnative.explorer.msbuild.build",
         "title": "Build"
       },
       {
-        "command": "fidelity.explorer.msbuild.rebuild",
+        "command": "ionide-fsnative.explorer.msbuild.rebuild",
         "title": "Rebuild"
       },
       {
-        "command": "fidelity.explorer.msbuild.clean",
+        "command": "ionide-fsnative.explorer.msbuild.clean",
         "title": "Clean"
       },
       {
-        "command": "fidelity.explorer.msbuild.restore",
+        "command": "ionide-fsnative.explorer.msbuild.restore",
         "title": "Restore"
       },
       {
-        "command": "fidelity.explorer.solution.build",
+        "command": "ionide-fsnative.explorer.solution.build",
         "title": "Build"
       },
       {
-        "command": "fidelity.explorer.solution.rebuild",
+        "command": "ionide-fsnative.explorer.solution.rebuild",
         "title": "Rebuild"
       },
       {
-        "command": "fidelity.explorer.solution.clean",
+        "command": "ionide-fsnative.explorer.solution.clean",
         "title": "Clean"
       },
       {
-        "command": "fidelity.explorer.solution.restore",
+        "command": "ionide-fsnative.explorer.solution.restore",
         "title": "Restore"
       },
       {
-        "command": "fidelity.explorer.project.run",
+        "command": "ionide-fsnative.explorer.project.run",
         "icon": {
           "dark": "./images/run-mono-dark.svg",
           "light": "./images/run-mono-light.svg"
@@ -325,7 +325,7 @@
         "title": "Run"
       },
       {
-        "command": "fidelity.explorer.project.debug",
+        "command": "ionide-fsnative.explorer.project.debug",
         "icon": {
           "dark": "./images/debug-mono-dark.svg",
           "light": "./images/debug-mono-light.svg"
@@ -333,44 +333,44 @@
         "title": "Debug"
       },
       {
-        "command": "fidelity.explorer.project.setDefault",
+        "command": "ionide-fsnative.explorer.project.setDefault",
         "title": "Set as startup project"
       },
       {
-        "command": "fidelity.explorer.project.sendFSI",
+        "command": "ionide-fsnative.explorer.project.sendFSI",
         "title": "Send references for FSI"
       },
       {
-        "command": "fidelity.explorer.project.generateFSI",
+        "command": "ionide-fsnative.explorer.project.generateFSI",
         "title": "Generate references for FSI"
       },
       {
-        "command": "fidelity.runDefaultProject",
+        "command": "ionide-fsnative.runDefaultProject",
         "icon": "./images/run.png",
         "title": "F#: Run Default Project"
       },
       {
-        "command": "fidelity.debugDefaultProject",
+        "command": "ionide-fsnative.debugDefaultProject",
         "icon": "./images/debug.png",
         "title": "F#: Debug Default Project"
       },
       {
-        "command": "fidelity.chooseDefaultProject",
+        "command": "ionide-fsnative.chooseDefaultProject",
         "title": "F#: Choose Default Project"
       },
       {
-        "command": "fidelity.explorer.solution.addProject",
+        "command": "ionide-fsnative.explorer.solution.addProject",
         "title": "Add project"
       },
       {
         "category": "F#",
-        "command": "fidelity.htmlConverter.convert",
+        "command": "ionide-fsnative.htmlConverter.convert",
         "description": "Converts your selection to Elmish by assuming that your selection is HTML code",
         "title": "Convert html to Elmish"
       },
       {
         "category": "F#",
-        "command": "fidelity.revealInSolutionExplorer",
+        "command": "ionide-fsnative.revealInSolutionExplorer",
         "icon": {
           "dark": "./images/auto-reveal-dark.svg",
           "light": "./images/auto-reveal-light.svg"
@@ -379,23 +379,23 @@
       },
       {
         "category": "F#",
-        "command": "fidelity.openInfoPanel",
+        "command": "ionide-fsnative.openInfoPanel",
         "description": "Opens Info Panel displaying documentation",
         "title": "Open Info Panel"
       },
       {
         "category": "F#",
-        "command": "fidelity.updateInfoPanel",
+        "command": "ionide-fsnative.updateInfoPanel",
         "description": "Updates Info Panel with documentation of current symbol",
         "title": "Update Info Panel"
       },
       {
-        "command": "fidelity.showDocumentation",
+        "command": "ionide-fsnative.showDocumentation",
         "title": "Show Documentation for given symbol"
       },
       {
         "category": "F#",
-        "command": "fidelity.openInfoPanel.lock",
+        "command": "ionide-fsnative.openInfoPanel.lock",
         "icon": {
           "dark": "./images/lock-solid.svg",
           "light": "./images/lock-solid-light.svg"
@@ -404,7 +404,7 @@
       },
       {
         "category": "F#",
-        "command": "fidelity.openInfoPanel.unlock",
+        "command": "ionide-fsnative.openInfoPanel.unlock",
         "icon": {
           "dark": "./images/lock-open-solid.svg",
           "light": "./images/lock-open-solid-light.svg"
@@ -413,7 +413,7 @@
       },
       {
         "category": "F#",
-        "command": "fidelity.restartLanguageService",
+        "command": "ionide-fsnative.restartLanguageService",
         "title": "Restart Language Service"
       }
     ],
@@ -1044,42 +1044,42 @@
         "when": "editorFocus && !findWidgetVisible && editorLangId == 'fsharp'"
       },
       {
-        "command": "fidelity.explorer.moveUp",
+        "command": "ionide-fsnative.explorer.moveUp",
         "key": "alt+up",
-        "when": "focusedView == 'ionide.projectExplorerInActivity' || focusedView == 'ionide.projectExplorer'"
+        "when": "focusedView == 'ionide-fsnative.projectExplorerInActivity' || focusedView == 'ionide-fsnative.projectExplorer'"
       },
       {
-        "command": "fidelity.explorer.moveDown",
+        "command": "ionide-fsnative.explorer.moveDown",
         "key": "alt+down",
-        "when": "focusedView == 'ionide.projectExplorerInActivity' || focusedView == 'ionide.projectExplorer'"
+        "when": "focusedView == 'ionide-fsnative.projectExplorerInActivity' || focusedView == 'ionide-fsnative.projectExplorer'"
       },
       {
-        "command": "fidelity.generateDoc",
+        "command": "ionide-fsnative.generateDoc",
         "key": "alt+shift+j",
         "when": "editorFocus && editorLangId == 'fsharp'"
       },
       {
-        "command": "fidelity.getHelp",
+        "command": "ionide-fsnative.getHelp",
         "key": "shift+F1",
         "when": "editorFocus && editorLangId == 'fsharp'"
       },
       {
         "command": "MSBuild.buildCurrent",
         "key": "ctrl+alt+b",
-        "when": "fidelity.project.any && editorFocus && editorLangId == 'fsharp'"
+        "when": "ionide-fsnative.project.any && editorFocus && editorLangId == 'fsharp'"
       },
       {
         "command": "MSBuild.buildCurrentSolution",
         "key": "ctrl+alt+shift+b",
-        "when": "fidelity.project.any"
+        "when": "ionide-fsnative.project.any"
       },
       {
-        "command": "fidelity.openInfoPanel",
+        "command": "ionide-fsnative.openInfoPanel",
         "key": "alt+,",
         "when": "editorFocus && editorLangId == 'fsharp'"
       },
       {
-        "command": "fidelity.updateInfoPanel",
+        "command": "ionide-fsnative.updateInfoPanel",
         "key": "alt+.",
         "when": "editorFocus && editorLangId == 'fsharp'"
       }
@@ -1125,111 +1125,111 @@
     "menus": {
       "commandPalette": [
         {
-          "command": "fidelity.explorer.moveUp",
+          "command": "ionide-fsnative.explorer.moveUp",
           "when": "false"
         },
         {
-          "command": "fidelity.explorer.moveDown",
+          "command": "ionide-fsnative.explorer.moveDown",
           "when": "false"
         },
         {
-          "command": "fidelity.explorer.renameFile",
+          "command": "ionide-fsnative.explorer.renameFile",
           "when": "false"
         },
         {
-          "command": "fidelity.explorer.removeFile",
+          "command": "ionide-fsnative.explorer.removeFile",
           "when": "false"
         },
         {
-          "command": "fidelity.explorer.addAbove",
+          "command": "ionide-fsnative.explorer.addAbove",
           "when": "false"
         },
         {
-          "command": "fidelity.explorer.addBelow",
+          "command": "ionide-fsnative.explorer.addBelow",
           "when": "false"
         },
         {
-          "command": "fidelity.explorer.addFile",
+          "command": "ionide-fsnative.explorer.addFile",
           "when": "false"
         },
         {
-          "command": "fidelity.explorer.addExistingFile",
+          "command": "ionide-fsnative.explorer.addExistingFile",
           "when": "false"
         },
         {
-          "command": "fidelity.explorer.addProjecRef",
+          "command": "ionide-fsnative.explorer.addProjecRef",
           "when": "false"
         },
         {
-          "command": "fidelity.explorer.removeProjecRef",
+          "command": "ionide-fsnative.explorer.removeProjecRef",
           "when": "false"
         },
         {
-          "command": "fidelity.explorer.openProjectFile",
+          "command": "ionide-fsnative.explorer.openProjectFile",
           "when": "false"
         },
         {
-          "command": "fidelity.explorer.refresh",
+          "command": "ionide-fsnative.explorer.refresh",
           "when": "false"
         },
         {
-          "command": "fidelity.explorer.clearCache",
+          "command": "ionide-fsnative.explorer.clearCache",
           "when": "false"
         },
         {
-          "command": "fidelity.explorer.msbuild.build",
+          "command": "ionide-fsnative.explorer.msbuild.build",
           "when": "false"
         },
         {
-          "command": "fidelity.explorer.msbuild.rebuild",
+          "command": "ionide-fsnative.explorer.msbuild.rebuild",
           "when": "false"
         },
         {
-          "command": "fidelity.explorer.msbuild.clean",
+          "command": "ionide-fsnative.explorer.msbuild.clean",
           "when": "false"
         },
         {
-          "command": "fidelity.explorer.msbuild.restore",
+          "command": "ionide-fsnative.explorer.msbuild.restore",
           "when": "false"
         },
         {
-          "command": "fidelity.explorer.solution.build",
+          "command": "ionide-fsnative.explorer.solution.build",
           "when": "false"
         },
         {
-          "command": "fidelity.explorer.solution.rebuild",
+          "command": "ionide-fsnative.explorer.solution.rebuild",
           "when": "false"
         },
         {
-          "command": "fidelity.explorer.solution.clean",
+          "command": "ionide-fsnative.explorer.solution.clean",
           "when": "false"
         },
         {
-          "command": "fidelity.explorer.solution.restore",
+          "command": "ionide-fsnative.explorer.solution.restore",
           "when": "false"
         },
         {
-          "command": "fidelity.explorer.project.run",
+          "command": "ionide-fsnative.explorer.project.run",
           "when": "false"
         },
         {
-          "command": "fidelity.explorer.project.debug",
+          "command": "ionide-fsnative.explorer.project.debug",
           "when": "false"
         },
         {
-          "command": "fidelity.explorer.project.setDefault",
+          "command": "ionide-fsnative.explorer.project.setDefault",
           "when": "false"
         },
         {
-          "command": "fidelity.explorer.project.sendFSI",
+          "command": "ionide-fsnative.explorer.project.sendFSI",
           "when": "false"
         },
         {
-          "command": "fidelity.explorer.project.generateFSI",
+          "command": "ionide-fsnative.explorer.project.generateFSI",
           "when": "false"
         },
         {
-          "command": "fidelity.explorer.solution.addProject",
+          "command": "ionide-fsnative.explorer.solution.addProject",
           "when": "false"
         },
         {
@@ -1237,8 +1237,8 @@
           "when": "editorLangId == 'fsharp'"
         },
         {
-          "command": "fidelity.AddFileToProject",
-          "when": "fidelity.project.any && editorLangId == 'fsharp'"
+          "command": "ionide-fsnative.AddFileToProject",
+          "when": "ionide-fsnative.project.any && editorLangId == 'fsharp'"
         },
         {
           "command": "fsi.SendSelection",
@@ -1258,96 +1258,96 @@
         },
         {
           "command": "fsi.SendProjectReferences",
-          "when": "fidelity.project.any && editorLangId == 'fsharp'"
+          "when": "ionide-fsnative.project.any && editorLangId == 'fsharp'"
         },
         {
           "command": "fsi.GenerateProjectReferences",
-          "when": "fidelity.project.any && editorLangId == 'fsharp'"
+          "when": "ionide-fsnative.project.any && editorLangId == 'fsharp'"
         },
         {
-          "command": "fidelity.scriptrunner.run",
+          "command": "ionide-fsnative.scriptrunner.run",
           "when": "editorLangId == 'fsharp' && resourceExtname == '.fsx'"
         },
         {
-          "command": "fidelity.getHelp",
+          "command": "ionide-fsnative.getHelp",
           "when": "editorLangId == 'fsharp'"
         },
         {
-          "command": "fidelity.generateDoc",
+          "command": "ionide-fsnative.generateDoc",
           "when": "editorLangId == 'fsharp'"
         },
         {
           "command": "MSBuild.buildCurrent",
-          "when": "fidelity.project.any && editorLangId == 'fsharp'"
+          "when": "ionide-fsnative.project.any && editorLangId == 'fsharp'"
         },
         {
           "command": "MSBuild.rebuildCurrent",
-          "when": "fidelity.project.any && editorLangId == 'fsharp'"
+          "when": "ionide-fsnative.project.any && editorLangId == 'fsharp'"
         },
         {
           "command": "MSBuild.cleanCurrent",
-          "when": "fidelity.project.any && editorLangId == 'fsharp'"
+          "when": "ionide-fsnative.project.any && editorLangId == 'fsharp'"
         },
         {
-          "command": "fidelity.clearCache",
-          "when": "fidelity.project.any"
+          "command": "ionide-fsnative.clearCache",
+          "when": "ionide-fsnative.project.any"
         },
         {
           "command": "MSBuild.buildSelected",
-          "when": "fidelity.project.any"
+          "when": "ionide-fsnative.project.any"
         },
         {
           "command": "MSBuild.rebuildSelected",
-          "when": "fidelity.project.any"
+          "when": "ionide-fsnative.project.any"
         },
         {
           "command": "MSBuild.cleanSelected",
-          "when": "fidelity.project.any"
+          "when": "ionide-fsnative.project.any"
         },
         {
           "command": "MSBuild.restoreSelected",
-          "when": "fidelity.project.any"
+          "when": "ionide-fsnative.project.any"
         },
         {
           "command": "MSBuild.buildCurrentSolution",
-          "when": "fidelity.project.any"
+          "when": "ionide-fsnative.project.any"
         },
         {
           "command": "MSBuild.rebuildCurrentSolution",
-          "when": "fidelity.project.any"
+          "when": "ionide-fsnative.project.any"
         },
         {
           "command": "MSBuild.cleanCurrentSolution",
-          "when": "fidelity.project.any"
+          "when": "ionide-fsnative.project.any"
         },
         {
-          "command": "fidelity.runDefaultProject",
-          "when": "fidelity.project.any"
+          "command": "ionide-fsnative.runDefaultProject",
+          "when": "ionide-fsnative.project.any"
         },
         {
-          "command": "fidelity.debugDefaultProject",
-          "when": "fidelity.project.any"
+          "command": "ionide-fsnative.debugDefaultProject",
+          "when": "ionide-fsnative.project.any"
         },
         {
-          "command": "fidelity.chooseDefaultProject",
-          "when": "fidelity.project.any"
+          "command": "ionide-fsnative.chooseDefaultProject",
+          "when": "ionide-fsnative.project.any"
         },
         {
-          "command": "fidelity.NewProject",
+          "command": "ionide-fsnative.NewProject",
           "when": "workbenchState != empty"
         },
         {
-          "command": "fidelity.showDocumentation",
+          "command": "ionide-fsnative.showDocumentation",
           "when": "false"
         },
         {
-          "command": "fidelity.restartLanguageService",
+          "command": "ionide-fsnative.restartLanguageService",
           "when": "editorLangId == 'fsharp'"
         }
       ],
       "editor/context": [
         {
-          "command": "fidelity.generateDoc",
+          "command": "ionide-fsnative.generateDoc",
           "group": "1_modification",
           "when": "editorTextFocus && editorLangId == 'fsharp'"
         }
@@ -1359,36 +1359,36 @@
           "when": "editorLangId == 'fsharp' && resourceExtname == '.fsx'"
         },
         {
-          "command": "fidelity.scriptrunner.run",
+          "command": "ionide-fsnative.scriptrunner.run",
           "group": "navigation",
           "when": "editorLangId == 'fsharp' && resourceExtname == '.fsx'"
         },
         {
-          "command": "fidelity.openInfoPanel.unlock",
+          "command": "ionide-fsnative.openInfoPanel.unlock",
           "group": "navigation",
           "when": "infoPanelFocused && infoPanelLocked"
         },
         {
-          "command": "fidelity.openInfoPanel.lock",
+          "command": "ionide-fsnative.openInfoPanel.lock",
           "group": "navigation",
           "when": "infoPanelFocused && !infoPanelLocked"
         }
       ],
       "touchBar": [
         {
-          "command": "fidelity.debugDefaultProject",
+          "command": "ionide-fsnative.debugDefaultProject",
           "group": "fsharp",
-          "when": "fidelity.project.any && config.FSharp.enableTouchBar"
+          "when": "ionide-fsnative.project.any && config.FSharp.enableTouchBar"
         },
         {
-          "command": "fidelity.runDefaultProject",
+          "command": "ionide-fsnative.runDefaultProject",
           "group": "fsharp",
-          "when": "fidelity.project.any && config.FSharp.enableTouchBar"
+          "when": "ionide-fsnative.project.any && config.FSharp.enableTouchBar"
         },
         {
-          "command": "fidelity.NewProject",
+          "command": "ionide-fsnative.NewProject",
           "group": "fsharp",
-          "when": "fidelity.project.any && config.FSharp.enableTouchBar"
+          "when": "ionide-fsnative.project.any && config.FSharp.enableTouchBar"
         },
         {
           "command": "fsi.Start",
@@ -1403,341 +1403,341 @@
       ],
       "view/item/context": [
         {
-          "command": "fidelity.explorer.moveUp",
+          "command": "ionide-fsnative.explorer.moveUp",
           "group": "1_navigation@1",
-          "when": "viewItem == ionide.projectExplorer.file"
+          "when": "viewItem == ionide-fsnative.projectExplorer.file"
         },
         {
-          "command": "fidelity.explorer.moveUp",
+          "command": "ionide-fsnative.explorer.moveUp",
           "group": "inline@1",
-          "when": "viewItem == ionide.projectExplorer.file"
+          "when": "viewItem == ionide-fsnative.projectExplorer.file"
         },
         {
-          "command": "fidelity.explorer.moveDown",
+          "command": "ionide-fsnative.explorer.moveDown",
           "group": "1_navigation@2",
-          "when": "viewItem == ionide.projectExplorer.file"
+          "when": "viewItem == ionide-fsnative.projectExplorer.file"
         },
         {
-          "command": "fidelity.explorer.moveDown",
+          "command": "ionide-fsnative.explorer.moveDown",
           "group": "inline@2",
-          "when": "viewItem == ionide.projectExplorer.file"
+          "when": "viewItem == ionide-fsnative.projectExplorer.file"
         },
         {
-          "command": "fidelity.explorer.renameFile",
+          "command": "ionide-fsnative.explorer.renameFile",
           "group": "2_action@1",
-          "when": "viewItem == ionide.projectExplorer.file"
+          "when": "viewItem == ionide-fsnative.projectExplorer.file"
         },
         {
-          "command": "fidelity.explorer.removeFile",
+          "command": "ionide-fsnative.explorer.removeFile",
           "group": "2_action@2",
-          "when": "viewItem == ionide.projectExplorer.file"
+          "when": "viewItem == ionide-fsnative.projectExplorer.file"
         },
         {
-          "command": "fidelity.explorer.addAbove",
+          "command": "ionide-fsnative.explorer.addAbove",
           "group": "3_add@1",
-          "when": "viewItem == ionide.projectExplorer.file"
+          "when": "viewItem == ionide-fsnative.projectExplorer.file"
         },
         {
-          "command": "fidelity.explorer.addBelow",
+          "command": "ionide-fsnative.explorer.addBelow",
           "group": "3_add@2",
-          "when": "viewItem == ionide.projectExplorer.file"
+          "when": "viewItem == ionide-fsnative.projectExplorer.file"
         },
         {
-          "command": "fidelity.explorer.openProjectFile",
-          "when": "viewItem == ionide.projectExplorer.projectNotLoaded"
+          "command": "ionide-fsnative.explorer.openProjectFile",
+          "when": "viewItem == ionide-fsnative.projectExplorer.projectNotLoaded"
         },
         {
-          "command": "fidelity.explorer.openProjectFile",
+          "command": "ionide-fsnative.explorer.openProjectFile",
           "group": "inline@99",
-          "when": "viewItem == ionide.projectExplorer.projectNotLoaded"
+          "when": "viewItem == ionide-fsnative.projectExplorer.projectNotLoaded"
         },
         {
-          "command": "fidelity.explorer.showProjectLoadFailedInfo",
+          "command": "ionide-fsnative.explorer.showProjectLoadFailedInfo",
           "group": "inline@98",
-          "when": "viewItem == ionide.projectExplorer.projectLoadFailed"
+          "when": "viewItem == ionide-fsnative.projectExplorer.projectLoadFailed"
         },
         {
-          "command": "fidelity.explorer.openProjectFile",
-          "when": "viewItem == ionide.projectExplorer.projectLoadFailed"
+          "command": "ionide-fsnative.explorer.openProjectFile",
+          "when": "viewItem == ionide-fsnative.projectExplorer.projectLoadFailed"
         },
         {
-          "command": "fidelity.explorer.openProjectFile",
+          "command": "ionide-fsnative.explorer.openProjectFile",
           "group": "inline@99",
-          "when": "viewItem == ionide.projectExplorer.projectLoadFailed"
+          "when": "viewItem == ionide-fsnative.projectExplorer.projectLoadFailed"
         },
         {
-          "command": "fidelity.explorer.showProjectStatus",
-          "when": "viewItem == ionide.projectExplorer.projectLoading"
+          "command": "ionide-fsnative.explorer.showProjectStatus",
+          "when": "viewItem == ionide-fsnative.projectExplorer.projectLoading"
         },
         {
-          "command": "fidelity.explorer.openProjectFile",
-          "when": "viewItem == ionide.projectExplorer.projectLoading"
+          "command": "ionide-fsnative.explorer.openProjectFile",
+          "when": "viewItem == ionide-fsnative.projectExplorer.projectLoading"
         },
         {
-          "command": "fidelity.explorer.openProjectFile",
-          "when": "viewItem == ionide.projectExplorer.projectNotRestored"
+          "command": "ionide-fsnative.explorer.openProjectFile",
+          "when": "viewItem == ionide-fsnative.projectExplorer.projectNotRestored"
         },
         {
-          "command": "fidelity.explorer.openProjectFile",
+          "command": "ionide-fsnative.explorer.openProjectFile",
           "group": "inline@99",
-          "when": "viewItem == ionide.projectExplorer.projectLoading"
+          "when": "viewItem == ionide-fsnative.projectExplorer.projectLoading"
         },
         {
-          "command": "fidelity.explorer.openProjectFile",
+          "command": "ionide-fsnative.explorer.openProjectFile",
           "group": "inline@99",
-          "when": "viewItem == ionide.projectExplorer.projectNotRestored"
+          "when": "viewItem == ionide-fsnative.projectExplorer.projectNotRestored"
         },
         {
-          "command": "fidelity.explorer.showProjectStatus",
+          "command": "ionide-fsnative.explorer.showProjectStatus",
           "group": "inline@98",
-          "when": "viewItem == ionide.projectExplorer.projectNotRestored"
+          "when": "viewItem == ionide-fsnative.projectExplorer.projectNotRestored"
         },
         {
-          "command": "fidelity.explorer.addProjecRef",
-          "when": "viewItem == ionide.projectExplorer.projectRefList"
+          "command": "ionide-fsnative.explorer.addProjecRef",
+          "when": "viewItem == ionide-fsnative.projectExplorer.projectRefList"
         },
         {
-          "command": "fidelity.explorer.removeProjecRef",
-          "when": "viewItem == ionide.projectExplorer.projRef"
+          "command": "ionide-fsnative.explorer.removeProjecRef",
+          "when": "viewItem == ionide-fsnative.projectExplorer.projRef"
         },
         {
-          "command": "fidelity.explorer.openProjectFile",
+          "command": "ionide-fsnative.explorer.openProjectFile",
           "group": "4_derails@1",
-          "when": "viewItem == ionide.projectExplorer.project"
+          "when": "viewItem == ionide-fsnative.projectExplorer.project"
         },
         {
-          "command": "fidelity.explorer.openProjectFile",
+          "command": "ionide-fsnative.explorer.openProjectFile",
           "group": "inline@99",
-          "when": "viewItem == ionide.projectExplorer.project"
+          "when": "viewItem == ionide-fsnative.projectExplorer.project"
         },
         {
-          "command": "fidelity.explorer.showProjectStatus",
+          "command": "ionide-fsnative.explorer.showProjectStatus",
           "group": "4_details@2",
-          "when": "viewItem == ionide.projectExplorer.project"
+          "when": "viewItem == ionide-fsnative.projectExplorer.project"
         },
         {
-          "command": "fidelity.explorer.addFile",
+          "command": "ionide-fsnative.explorer.addFile",
           "group": "2_modifications@1",
-          "when": "viewItem == ionide.projectExplorer.project"
+          "when": "viewItem == ionide-fsnative.projectExplorer.project"
         },
         {
-          "command": "fidelity.explorer.addExistingFile",
+          "command": "ionide-fsnative.explorer.addExistingFile",
           "group": "2_modifications@2",
-          "when": "viewItem == ionide.projectExplorer.project"
+          "when": "viewItem == ionide-fsnative.projectExplorer.project"
         },
         {
-          "command": "fidelity.explorer.project.generateFSI",
+          "command": "ionide-fsnative.explorer.project.generateFSI",
           "group": "3_fsi@1",
-          "when": "viewItem == ionide.projectExplorer.project"
+          "when": "viewItem == ionide-fsnative.projectExplorer.project"
         },
         {
-          "command": "fidelity.explorer.project.sendFSI",
+          "command": "ionide-fsnative.explorer.project.sendFSI",
           "group": "3_fsi@2",
-          "when": "viewItem == ionide.projectExplorer.project"
+          "when": "viewItem == ionide-fsnative.projectExplorer.project"
         },
         {
-          "command": "fidelity.explorer.msbuild.build",
+          "command": "ionide-fsnative.explorer.msbuild.build",
           "group": "1_navigation@1",
-          "when": "viewItem == ionide.projectExplorer.project"
+          "when": "viewItem == ionide-fsnative.projectExplorer.project"
         },
         {
-          "command": "fidelity.explorer.msbuild.rebuild",
+          "command": "ionide-fsnative.explorer.msbuild.rebuild",
           "group": "1_navigation@2",
-          "when": "viewItem == ionide.projectExplorer.project"
+          "when": "viewItem == ionide-fsnative.projectExplorer.project"
         },
         {
-          "command": "fidelity.explorer.msbuild.clean",
+          "command": "ionide-fsnative.explorer.msbuild.clean",
           "group": "1_navigation@3",
-          "when": "viewItem == ionide.projectExplorer.project"
+          "when": "viewItem == ionide-fsnative.projectExplorer.project"
         },
         {
-          "command": "fidelity.explorer.msbuild.restore",
+          "command": "ionide-fsnative.explorer.msbuild.restore",
           "group": "1_navigation@4",
-          "when": "viewItem == ionide.projectExplorer.project"
+          "when": "viewItem == ionide-fsnative.projectExplorer.project"
         },
         {
-          "command": "fidelity.explorer.msbuild.restore",
+          "command": "ionide-fsnative.explorer.msbuild.restore",
           "group": "1_navigation@1",
-          "when": "viewItem == ionide.projectExplorer.projectNotRestored"
+          "when": "viewItem == ionide-fsnative.projectExplorer.projectNotRestored"
         },
         {
-          "command": "fidelity.explorer.solution.build",
+          "command": "ionide-fsnative.explorer.solution.build",
           "group": "1_navigation@1",
-          "when": "viewItem == ionide.projectExplorer.solution"
+          "when": "viewItem == ionide-fsnative.projectExplorer.solution"
         },
         {
-          "command": "fidelity.explorer.solution.rebuild",
+          "command": "ionide-fsnative.explorer.solution.rebuild",
           "group": "1_navigation@2",
-          "when": "viewItem == ionide.projectExplorer.solution"
+          "when": "viewItem == ionide-fsnative.projectExplorer.solution"
         },
         {
-          "command": "fidelity.explorer.solution.clean",
+          "command": "ionide-fsnative.explorer.solution.clean",
           "group": "1_navigation@3",
-          "when": "viewItem == ionide.projectExplorer.solution"
+          "when": "viewItem == ionide-fsnative.projectExplorer.solution"
         },
         {
-          "command": "fidelity.explorer.solution.restore",
+          "command": "ionide-fsnative.explorer.solution.restore",
           "group": "1_navigation@3",
-          "when": "viewItem == ionide.projectExplorer.solution"
+          "when": "viewItem == ionide-fsnative.projectExplorer.solution"
         },
         {
-          "command": "fidelity.explorer.solution.addProject",
+          "command": "ionide-fsnative.explorer.solution.addProject",
           "group": "2_modification@1",
-          "when": "viewItem == ionide.projectExplorer.solution"
+          "when": "viewItem == ionide-fsnative.projectExplorer.solution"
         },
         {
-          "command": "fidelity.explorer.addFile",
+          "command": "ionide-fsnative.explorer.addFile",
           "group": "3_modifications@1",
-          "when": "viewItem == ionide.projectExplorer.projectExe"
+          "when": "viewItem == ionide-fsnative.projectExplorer.projectExe"
         },
         {
-          "command": "fidelity.explorer.addExistingFile",
+          "command": "ionide-fsnative.explorer.addExistingFile",
           "group": "3_modifications@2",
-          "when": "viewItem == ionide.projectExplorer.projectExe"
+          "when": "viewItem == ionide-fsnative.projectExplorer.projectExe"
         },
         {
-          "command": "fidelity.explorer.project.generateFSI",
+          "command": "ionide-fsnative.explorer.project.generateFSI",
           "group": "4_fsi@1",
-          "when": "viewItem == ionide.projectExplorer.projectExe"
+          "when": "viewItem == ionide-fsnative.projectExplorer.projectExe"
         },
         {
-          "command": "fidelity.explorer.project.sendFSI",
+          "command": "ionide-fsnative.explorer.project.sendFSI",
           "group": "4_fsi@2",
-          "when": "viewItem == ionide.projectExplorer.projectExe"
+          "when": "viewItem == ionide-fsnative.projectExplorer.projectExe"
         },
         {
-          "command": "fidelity.explorer.openProjectFile",
+          "command": "ionide-fsnative.explorer.openProjectFile",
           "group": "5_detail@1",
-          "when": "viewItem == ionide.projectExplorer.projectExe"
+          "when": "viewItem == ionide-fsnative.projectExplorer.projectExe"
         },
         {
-          "command": "fidelity.explorer.openProjectFile",
+          "command": "ionide-fsnative.explorer.openProjectFile",
           "group": "inline@99",
-          "when": "viewItem == ionide.projectExplorer.projectExe"
+          "when": "viewItem == ionide-fsnative.projectExplorer.projectExe"
         },
         {
-          "command": "fidelity.explorer.showProjectStatus",
+          "command": "ionide-fsnative.explorer.showProjectStatus",
           "group": "5_detail@2",
-          "when": "viewItem == ionide.projectExplorer.projectExe"
+          "when": "viewItem == ionide-fsnative.projectExplorer.projectExe"
         },
         {
-          "command": "fidelity.explorer.msbuild.build",
+          "command": "ionide-fsnative.explorer.msbuild.build",
           "group": "2_navigation@1",
-          "when": "viewItem == ionide.projectExplorer.projectExe"
+          "when": "viewItem == ionide-fsnative.projectExplorer.projectExe"
         },
         {
-          "command": "fidelity.explorer.msbuild.rebuild",
+          "command": "ionide-fsnative.explorer.msbuild.rebuild",
           "group": "2_navigation@2",
-          "when": "viewItem == ionide.projectExplorer.projectExe"
+          "when": "viewItem == ionide-fsnative.projectExplorer.projectExe"
         },
         {
-          "command": "fidelity.explorer.msbuild.clean",
+          "command": "ionide-fsnative.explorer.msbuild.clean",
           "group": "2_navigation@3",
-          "when": "viewItem == ionide.projectExplorer.projectExe"
+          "when": "viewItem == ionide-fsnative.projectExplorer.projectExe"
         },
         {
-          "command": "fidelity.explorer.msbuild.restore",
+          "command": "ionide-fsnative.explorer.msbuild.restore",
           "group": "2_navigation@4",
-          "when": "viewItem == ionide.projectExplorer.projectExe"
+          "when": "viewItem == ionide-fsnative.projectExplorer.projectExe"
         },
         {
-          "command": "fidelity.explorer.project.run",
+          "command": "ionide-fsnative.explorer.project.run",
           "group": "1_run@1",
-          "when": "viewItem == ionide.projectExplorer.projectExe"
+          "when": "viewItem == ionide-fsnative.projectExplorer.projectExe"
         },
         {
-          "command": "fidelity.explorer.project.run",
+          "command": "ionide-fsnative.explorer.project.run",
           "group": "inline@1",
-          "when": "viewItem == ionide.projectExplorer.projectExe"
+          "when": "viewItem == ionide-fsnative.projectExplorer.projectExe"
         },
         {
-          "command": "fidelity.explorer.project.debug",
+          "command": "ionide-fsnative.explorer.project.debug",
           "group": "1_run@2",
-          "when": "viewItem == ionide.projectExplorer.projectExe"
+          "when": "viewItem == ionide-fsnative.projectExplorer.projectExe"
         },
         {
-          "command": "fidelity.explorer.project.debug",
+          "command": "ionide-fsnative.explorer.project.debug",
           "group": "inline@2",
-          "when": "viewItem == ionide.projectExplorer.projectExe"
+          "when": "viewItem == ionide-fsnative.projectExplorer.projectExe"
         },
         {
-          "command": "fidelity.explorer.project.setDefault",
+          "command": "ionide-fsnative.explorer.project.setDefault",
           "group": "1_run@3",
-          "when": "viewItem == ionide.projectExplorer.projectExe"
+          "when": "viewItem == ionide-fsnative.projectExplorer.projectExe"
         }
       ],
       "view/title": [
         {
-          "command": "fidelity.NewProject",
+          "command": "ionide-fsnative.NewProject",
           "group": "navigation@1",
-          "when": "view == ionide.projectExplorer"
+          "when": "view == ionide-fsnative.projectExplorer"
         },
         {
-          "command": "fidelity.NewProject",
+          "command": "ionide-fsnative.NewProject",
           "group": "navigation@1",
-          "when": "view == ionide.projectExplorerInActivity"
+          "when": "view == ionide-fsnative.projectExplorerInActivity"
         },
         {
-          "alt": "fidelity.runDefaultProject",
-          "command": "fidelity.debugDefaultProject",
+          "alt": "ionide-fsnative.runDefaultProject",
+          "command": "ionide-fsnative.debugDefaultProject",
           "group": "navigation@2",
-          "when": "view == ionide.projectExplorer"
+          "when": "view == ionide-fsnative.projectExplorer"
         },
         {
-          "alt": "fidelity.runDefaultProject",
-          "command": "fidelity.debugDefaultProject",
+          "alt": "ionide-fsnative.runDefaultProject",
+          "command": "ionide-fsnative.debugDefaultProject",
           "group": "navigation@2",
-          "when": "view == ionide.projectExplorerInActivity"
+          "when": "view == ionide-fsnative.projectExplorerInActivity"
         },
         {
-          "command": "fidelity.revealInSolutionExplorer",
+          "command": "ionide-fsnative.revealInSolutionExplorer",
           "group": "navigation@3",
-          "when": "view == ionide.projectExplorer"
+          "when": "view == ionide-fsnative.projectExplorer"
         },
         {
-          "command": "fidelity.revealInSolutionExplorer",
+          "command": "ionide-fsnative.revealInSolutionExplorer",
           "group": "navigation@3",
-          "when": "view == ionide.projectExplorerInActivity"
+          "when": "view == ionide-fsnative.projectExplorerInActivity"
         },
         {
-          "command": "fidelity.changeWorkspace",
+          "command": "ionide-fsnative.changeWorkspace",
           "group": "modification@1",
-          "when": "view == ionide.projectExplorer"
+          "when": "view == ionide-fsnative.projectExplorer"
         },
         {
-          "command": "fidelity.changeWorkspace",
+          "command": "ionide-fsnative.changeWorkspace",
           "group": "modification@1",
-          "when": "view == ionide.projectExplorerInActivity"
+          "when": "view == ionide-fsnative.projectExplorerInActivity"
         },
         {
-          "command": "fidelity.chooseDefaultProject",
+          "command": "ionide-fsnative.chooseDefaultProject",
           "group": "modification@3",
-          "when": "view == ionide.projectExplorer"
+          "when": "view == ionide-fsnative.projectExplorer"
         },
         {
-          "command": "fidelity.chooseDefaultProject",
+          "command": "ionide-fsnative.chooseDefaultProject",
           "group": "modification@3",
-          "when": "view == ionide.projectExplorerInActivity"
+          "when": "view == ionide-fsnative.projectExplorerInActivity"
         },
         {
-          "command": "fidelity.explorer.refresh",
+          "command": "ionide-fsnative.explorer.refresh",
           "group": "modification@4",
-          "when": "view == ionide.projectExplorer"
+          "when": "view == ionide-fsnative.projectExplorer"
         },
         {
-          "command": "fidelity.explorer.refresh",
+          "command": "ionide-fsnative.explorer.refresh",
           "group": "modification@4",
-          "when": "view == ionide.projectExplorerInActivity"
+          "when": "view == ionide-fsnative.projectExplorerInActivity"
         },
         {
-          "command": "fidelity.explorer.clearCache",
+          "command": "ionide-fsnative.explorer.clearCache",
           "group": "modification@5",
-          "when": "view == ionide.projectExplorer"
+          "when": "view == ionide-fsnative.projectExplorer"
         },
         {
-          "command": "fidelity.explorer.clearCache",
+          "command": "ionide-fsnative.explorer.clearCache",
           "group": "modification@5",
-          "when": "view == ionide.projectExplorerInActivity"
+          "when": "view == ionide-fsnative.projectExplorerInActivity"
         }
       ]
     },
@@ -1842,7 +1842,7 @@
       "profiles": [
         {
           "icon": "terminal",
-          "id": "ionide-fsharp.fsi",
+          "id": "ionide-fsnative.fsi",
           "title": "F# Interactive"
         }
       ]
@@ -1850,16 +1850,16 @@
     "views": {
       "explorer": [
         {
-          "id": "fidelity.projectExplorer",
+          "id": "ionide-fsnative.projectExplorer",
           "name": "F# Solution Explorer",
-          "when": "fidelity.project.any && fsharp.showProjectExplorerInExplorerActivity"
+          "when": "ionide-fsnative.project.any && fsharp.showProjectExplorerInExplorerActivity"
         }
       ],
-      "ionide-fsharp": [
+      "ionide-fsnative": [
         {
-          "id": "fidelity.projectExplorerInActivity",
+          "id": "ionide-fsnative.projectExplorerInActivity",
           "name": "Solution Explorer",
-          "when": "fidelity.project.any && fsharp.showProjectExplorerInFsharpActivity"
+          "when": "ionide-fsnative.project.any && fsharp.showProjectExplorerInFsharpActivity"
         }
       ]
     },
@@ -1873,9 +1873,9 @@
       "activitybar": [
         {
           "icon": "images/activity-fsharp-logo.svg",
-          "id": "ionide-fsharp",
+          "id": "ionide-fsnative",
           "title": "F#",
-          "when": "fidelity.showProjectExplorerInFsharpActivity"
+          "when": "ionide-fsnative.showProjectExplorerInFsharpActivity"
         }
       ]
     },

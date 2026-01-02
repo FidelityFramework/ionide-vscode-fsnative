@@ -75,5 +75,22 @@
 				"!**/node_modules/**"
 			],
 		},
+		{
+			"name": "Test with Local FSNAC (.fidproj)",
+			"type": "extensionHost",
+			"runtimeExecutable": "${execPath}",
+			"args": [
+				"--extensionDevelopmentPath=${workspaceRoot}/release",
+				"/home/hhh/repos/Firefly/samples/console/FidelityHelloWorld/01_HelloWorldDirect"
+			],
+			"stopOnEntry": false,
+			"request": "launch",
+			"sourceMaps": true,
+			"outFiles": [
+				"${workspaceFolder}/release/*.js",
+				"${workspaceFolder}/out/**/*.js",
+				"!**/node_modules/**"
+			],
+		},
 	]
 }

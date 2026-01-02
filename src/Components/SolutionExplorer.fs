@@ -537,7 +537,7 @@ module SolutionExplorer =
                     | Workspace _ -> "workspace"
                     | WorkspaceFolder _ -> "workspaceFolder"
 
-                ti.contextValue <- Some(sprintf "ionide.projectExplorer.%s" context)
+                ti.contextValue <- Some(sprintf "ionide-fsnative.projectExplorer.%s" context)
 
                 let icon, resourceUri =
                     match element with
@@ -618,9 +618,9 @@ module SolutionExplorer =
             setInExplorerActivity (not inFsharpActivity)
 
             if inFsharpActivity then
-                "ionide.projectExplorerInActivity"
+                "ionide-fsnative.projectExplorerInActivity"
             else
-                "ionide.projectExplorer"
+                "ionide-fsnative.projectExplorer"
 
     module NodeReveal =
         module private RevealConfiguration =

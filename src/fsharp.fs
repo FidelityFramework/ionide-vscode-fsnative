@@ -150,7 +150,7 @@ let private doActivate (context: ExtensionContext) : JS.Promise<Api> =
         Unchecked.defaultof<_>)
 
 let activate (context: ExtensionContext) : JS.Promise<Api> =
-    // Check for C# extension at runtime
+    // Check for C# extension at runtime - warn but don't block for native F# development
     if not (checkCSharpExtension ()) then
         let extensionList =
             requiredExtensions
@@ -162,11 +162,11 @@ let activate (context: ExtensionContext) : JS.Promise<Api> =
                     let restStr = rest |> List.rev |> String.concat ", "
                     $"{restStr} or {last}"
 
-        window.showErrorMessage ($"Ionide requires one of the following C# extensions to be installed: {extensionList}")
-        |> Promise.ofThenable
-        |> Promise.map (fun _ -> Unchecked.defaultof<_>)
-    else
-        doActivate context
+        // Show warning but continue activation (C# extension only needed for .NET debugging)
+        window.showWarningMessage ($"For .NET debugging support, install one of: {extensionList}")
+        |> ignore
+
+    doActivate context
 
 
 let deactivate (disposables: Disposable[]) = LanguageService.stop ()

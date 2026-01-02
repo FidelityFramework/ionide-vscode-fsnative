@@ -476,25 +476,19 @@ type ShowStatus private (panel: WebviewPanel, body: string) as this =
 [<RequireQualifiedAccess>]
 module VSCodeExtension =
 
-    let private extensionName =
-#if IONIDE_EXPERIMENTAL
-        "ionide-fsharp-experimental"
-#else
-        "ionide-fsharp"
-#endif
+    let private extensionName = "ionide-fsnative"
+    let private publisherName = "SpeakEZtech"
 
     let ionidePluginPath () =
-
-        let capitalize (s: string) =
-            sprintf "%c%s" (s.[0] |> Char.ToUpper) (s.Substring(1))
-
-        let oldExtensionName = capitalize extensionName
-
+        // Try the native extension first, then fall back to original Ionide
         let path =
-            try
-                (VSCode.getPluginPath (sprintf "Ionide.%s" extensionName))
-            with _ ->
-                (VSCode.getPluginPath (sprintf "Ionide.%s" oldExtensionName))
+            match VSCode.getPluginPath (sprintf "%s.%s" publisherName extensionName) with
+            | Some p -> Some p
+            | None ->
+                // Fallback to original Ionide extension names for compatibility
+                match VSCode.getPluginPath "Ionide.ionide-fsharp" with
+                | Some p -> Some p
+                | None -> VSCode.getPluginPath "Ionide.Ionide-fsharp"
 
         match path with
         | Some p -> p
