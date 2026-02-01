@@ -1,4 +1,4 @@
-namespace Ionide.FsNative.VSCode.FSharp
+namespace Lattice.VSCode.FSharp
 
 open Fable.Core.JsInterop
 open Fable.Import.VSCode

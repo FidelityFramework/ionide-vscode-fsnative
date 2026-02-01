@@ -1,15 +1,15 @@
-module Ionide.FsNative.VSCode.FSharp.TestExplorer
+module Lattice.VSCode.FSharp.TestExplorer
 
 open System
 open System.Text
 open Fable.Core
 open Fable.Import.VSCode
 open Fable.Import.VSCode.Vscode
-open Ionide.FsNative.VSCode.FSharp.Import
-open Ionide.FsNative.VSCode.FSharp.Import.XmlDoc
+open Lattice.VSCode.FSharp.Import
+open Lattice.VSCode.FSharp.Import.XmlDoc
 open Fable.Core.JsInterop
 open DTO
-open Ionide.VSCode.Helpers
+open Lattice.VSCode.Helpers
 
 module node = Node.Api
 
@@ -527,8 +527,8 @@ module DotnetCli =
     type StandardError = string
 
     module Process =
-        open Ionide.VSCode.Helpers.CrossSpawn
-        open Ionide.VSCode.Helpers.Process
+        open Lattice.VSCode.Helpers.CrossSpawn
+        open Lattice.VSCode.Helpers.Process
         open Node.ChildProcess
 
         let private cancelErrorMessage = "SIGINT"

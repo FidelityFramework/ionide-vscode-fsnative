@@ -1,4 +1,4 @@
-module Ionide.FsNative.VSCode.FSharp.InlayHints
+module Lattice.VSCode.FSharp.InlayHints
 
 open Fable.Core
 open Fable.Import.VSCode

@@ -1,4 +1,4 @@
-namespace Ionide.FsNative.VSCode.FSharp
+namespace Lattice.VSCode.FSharp
 
 open System
 open Fable.Core
@@ -7,7 +7,7 @@ open Fable.Import.VSCode
 open Fable.Import.VSCode.Vscode
 open JsInterop
 
-open Ionide.VSCode.Helpers
+open Lattice.VSCode.Helpers
 
 module node = Node.Api
 

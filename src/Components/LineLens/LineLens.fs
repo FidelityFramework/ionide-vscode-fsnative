@@ -1,4 +1,4 @@
-module Ionide.FsNative.VSCode.FSharp.LineLens
+module Lattice.VSCode.FSharp.LineLens
 
 open System
 open System.Collections.Generic

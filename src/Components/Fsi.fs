@@ -1,4 +1,4 @@
-namespace Ionide.FsNative.VSCode.FSharp
+namespace Lattice.VSCode.FSharp
 
 open System
 open Fable.Core
@@ -13,7 +13,7 @@ module node = Node.Api
 module Fsi =
     module SdkScriptsNotify =
 
-        open Ionide.FsNative.VSCode.FSharp
+        open Lattice.VSCode.FSharp
 
         let suggestKey = "FSharp.suggestSdkScripts"
         let useKey = "FSharp.useSdkScripts"

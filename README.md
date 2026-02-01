@@ -1,16 +1,16 @@
-# Ionide for F# (Native)
+# Lattice for F#
 
 **F# Native Language Support for Visual Studio Code**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE.md)
 
-A fork of [Ionide-VSCode](https://github.com/ionide/ionide-vscode-fsharp) enhanced for native F# development with the Fidelity framework.
+A hard fork of [Ionide-VSCode](https://github.com/ionide/ionide-vscode-fsharp) for polyglot systems programming with F# Native, MLIR, LLVM, F*, Lua, and C.
 
 ## Overview
 
-Ionide for F# (Native) provides rich IDE support for native F# compilation, powered by [FsNativeAutoComplete (FSNAC)](https://github.com/FidelityFramework/FsNativeAutoComplete).
+Lattice provides rich IDE support for native F# compilation, powered by [FsNativeAutoComplete (FSNAC)](https://github.com/FidelityFramework/FsNativeAutoComplete).
 
-While the original Ionide extension assumes .NET projects with `.fsproj` and NuGet packages, Ionide.FsNative understands:
+While the original Ionide extension assumes .NET projects with `.fsproj` and NuGet packages, Lattice understands:
 
 - **`.fidproj`** - Native F# project manifests (TOML format)
 - **`.fsnx`** - Native F# script files
@@ -35,7 +35,7 @@ code --install-extension release/ionide-fsnative-*.vsix
 
 ### From Marketplace (Coming Soon)
 
-Search for "Ionide for F# (Native)" in the VS Code Extensions marketplace.
+Search for "Lattice for F#" in the VS Code Extensions marketplace.
 
 ## Features
 
@@ -93,16 +93,16 @@ output_kind = "console"
 |---------|------|
 | [Firefly](https://github.com/FidelityFramework/Firefly) | AOT compiler |
 | [FSNAC](https://github.com/FidelityFramework/FsNativeAutoComplete) | Language server |
-| **Ionide.FsNative-VSCode** | This extension |
-| [Ionide.FsNative-Vim](https://github.com/FidelityFramework/Ionide-vim-fsnative) | Vim/Neovim plugin |
+| **lattice-vscode** | This extension |
+| [lattice-vim](https://github.com/FidelityFramework/lattice-vim) | Vim/Neovim plugin |
 | [Alloy](https://github.com/FidelityFramework/Alloy) | Native standard library |
 
 ## Coexistence with Ionide
 
-Ionide.FsNative can be installed alongside Ionide:
+Lattice can be installed alongside Ionide:
 - Different extension IDs and configuration namespaces
-- Ionide.FsNative handles `.fidproj`/`.fsnx`, Ionide doesn't recognize them
-- Use Ionide for pure .NET, Ionide.FsNative for native or mixed workspaces
+- Lattice handles `.fidproj`/`.fsnx`, Ionide doesn't recognize them
+- Use Ionide for pure .NET, Lattice for native or mixed workspaces
 
 ## Building
 
@@ -121,9 +121,15 @@ Contributions are welcome! Areas of interest:
 - FSNAC integration improvements
 - Documentation and examples
 
+## Heritage
+
+This project is a hard fork of [Ionide-VSCode](https://github.com/ionide/ionide-vscode-fsharp), created by Krzysztof Cieślak and maintained by the Ionide community.
+
+See [IONIDE_HERITAGE.md](IONIDE_HERITAGE.md) for the full story of the ion → lattice progression.
+
 ## Acknowledgments
 
-This project is a fork of [Ionide-VSCode](https://github.com/ionide/ionide-vscode-fsharp). We're grateful to the Ionide maintainers and the F# community for creating the foundation we build upon.
+We are deeply grateful to Krzysztof Cieślak and all Ionide contributors for creating the exceptional foundation we build upon. Lattice serves a fundamentally different use case (native/freestanding F# compilation) and does not compete with Ionide.
 
 ## License
 

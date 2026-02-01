@@ -1,11 +1,11 @@
-namespace Ionide.FsNative.VSCode.FSharp
+namespace Lattice.VSCode.FSharp
 
 open System
 open Fable.Core
 open Fable.Core.JsInterop
 open Fable.Import.VSCode
 open Fable.Import.VSCode.Vscode
-open Ionide.VSCode.Helpers
+open Lattice.VSCode.Helpers
 open System.Text.RegularExpressions
 
 open DTO

@@ -13,10 +13,10 @@ nuget Thoth.Json 7.0
 
 git https://github.com/ionide/ionide-fsgrammar.git master
 
-github ionide/ionide-vscode-helpers:8e81bc03f11f07b8e0811b3d4598eadc78f32f2f src/Fable.Import.VSCode.fs
-github ionide/ionide-vscode-helpers:8e81bc03f11f07b8e0811b3d4598eadc78f32f2f src/Helpers.fs
-github ionide/ionide-vscode-helpers:8e81bc03f11f07b8e0811b3d4598eadc78f32f2f src/Fable.Import.Showdown.fs
-github ionide/ionide-vscode-helpers:8e81bc03f11f07b8e0811b3d4598eadc78f32f2f src/Fable.Import.VSCode.LanguageServer.fs
+github FidelityFramework/lattice-vscode-helpers main src/Fable.Import.VSCode.fs
+github FidelityFramework/lattice-vscode-helpers main src/Helpers.fs
+github FidelityFramework/lattice-vscode-helpers main src/Fable.Import.Showdown.fs
+github FidelityFramework/lattice-vscode-helpers main src/Fable.Import.VSCode.LanguageServer.fs
 
 group fsac
   source https://api.nuget.org/v3/index.json

@@ -1,6 +1,6 @@
 {
   "__metadata": {
-    "id": "ionide-fsnative",
+    "id": "lattice-fsharp",
     "publisherDisplayName": "SpeakEZ Technologies",
     "publisherId": "SpeakEZtech"
   },
@@ -19,12 +19,12 @@
   "badges": [
     {
       "description": "GitHub Stars",
-      "href": "https://github.com/FidelityFramework/fidelity-vscode-fsharp",
-      "url": "https://img.shields.io/github/stars/FidelityFramework/fidelity-vscode-fsharp?style=for-the-badge"
+      "href": "https://github.com/FidelityFramework/lattice-vscode",
+      "url": "https://img.shields.io/github/stars/FidelityFramework/lattice-vscode?style=for-the-badge"
     }
   ],
   "bugs": {
-    "url": "https://github.com/FidelityFramework/fidelity-vscode-fsharp/issues"
+    "url": "https://github.com/FidelityFramework/lattice-vscode/issues"
   },
   "categories": [
     "Linters",
@@ -57,7 +57,7 @@
           "light": "#919191"
         },
         "description": "Foreground color for F# LineLenses",
-        "id": "ionide.fsnative.linelens"
+        "id": "lattice.fsharp.linelens"
       },
       {
         "defaults": {
@@ -66,7 +66,7 @@
           "light": "#919191"
         },
         "description": "Foreground color for F# Pipeline Hints",
-        "id": "ionide.fsnative.pipelineHints"
+        "id": "lattice.fsharp.pipelineHints"
       },
       {
         "defaults": {
@@ -75,7 +75,7 @@
           "light": "#FFCC00"
         },
         "description": "Text colors for warnings shown in the status bar",
-        "id": "ionide.fsnative.statusBarWarnings"
+        "id": "lattice.fsharp.statusBarWarnings"
       }
     ],
     "commands": [
@@ -120,7 +120,7 @@
         "title": "FSI: Open Watcher"
       },
       {
-        "command": "ionide-fsnative.scriptrunner.run",
+        "command": "lattice-fsharp.scriptrunner.run",
         "icon": {
           "dark": "./images/run-dark.svg",
           "light": "./images/run-light.svg"
@@ -128,7 +128,7 @@
         "title": "F#: Run script"
       },
       {
-        "command": "ionide-fsnative.NewProject",
+        "command": "lattice-fsharp.NewProject",
         "icon": {
           "dark": "./images/add-dark.svg",
           "light": "./images/add-light.svg"
@@ -136,27 +136,27 @@
         "title": "F#: New Project"
       },
       {
-        "command": "ionide-fsnative.AddFileToProject",
+        "command": "lattice-fsharp.AddFileToProject",
         "title": "F#: Add Current File To Project"
       },
       {
-        "command": "ionide-fsnative.getHelp",
+        "command": "lattice-fsharp.getHelp",
         "title": "F#: Get Help"
       },
       {
-        "command": "ionide-fsnative.generateDoc",
+        "command": "lattice-fsharp.generateDoc",
         "title": "F#: Generate Documentation"
       },
       {
-        "command": "ionide-fsnative.clearCache",
+        "command": "lattice-fsharp.clearCache",
         "title": "F#: Clear Project Cache"
       },
       {
-        "command": "ionide-fsnative.changeWorkspace",
+        "command": "lattice-fsharp.changeWorkspace",
         "title": "F#: Change Workspace or Solution"
       },
       {
-        "command": "ionide-fsnative.fsdn",
+        "command": "lattice-fsharp.fsdn",
         "title": "F#: Search by signatures on FSDN"
       },
       {
@@ -200,7 +200,7 @@
         "title": "MSBuild: Clean current solution"
       },
       {
-        "command": "ionide-fsnative.explorer.moveUp",
+        "command": "lattice-fsharp.explorer.moveUp",
         "icon": {
           "dark": "./images/up-mono-dark.svg",
           "light": "./images/up-mono-light.svg"
@@ -208,7 +208,7 @@
         "title": "Move file up"
       },
       {
-        "command": "ionide-fsnative.explorer.moveDown",
+        "command": "lattice-fsharp.explorer.moveDown",
         "icon": {
           "dark": "./images/down-mono-dark.svg",
           "light": "./images/down-mono-light.svg"
@@ -216,31 +216,31 @@
         "title": "Move file down"
       },
       {
-        "command": "ionide-fsnative.explorer.renameFile",
+        "command": "lattice-fsharp.explorer.renameFile",
         "title": "Rename file"
       },
       {
-        "command": "ionide-fsnative.explorer.removeFile",
+        "command": "lattice-fsharp.explorer.removeFile",
         "title": "Remove file"
       },
       {
-        "command": "ionide-fsnative.explorer.addAbove",
+        "command": "lattice-fsharp.explorer.addAbove",
         "title": "Add file above"
       },
       {
-        "command": "ionide-fsnative.explorer.addBelow",
+        "command": "lattice-fsharp.explorer.addBelow",
         "title": "Add file below"
       },
       {
-        "command": "ionide-fsnative.explorer.addFile",
+        "command": "lattice-fsharp.explorer.addFile",
         "title": "Add file"
       },
       {
-        "command": "ionide-fsnative.explorer.addExistingFile",
+        "command": "lattice-fsharp.explorer.addExistingFile",
         "title": "Add existing file"
       },
       {
-        "command": "ionide-fsnative.explorer.showProjectLoadFailedInfo",
+        "command": "lattice-fsharp.explorer.showProjectLoadFailedInfo",
         "icon": {
           "dark": "./images/icon-status-dark.svg",
           "light": "./images/icon-status-light.svg"
@@ -248,7 +248,7 @@
         "title": "Show info about failed project loading"
       },
       {
-        "command": "ionide-fsnative.explorer.showProjectStatus",
+        "command": "lattice-fsharp.explorer.showProjectStatus",
         "icon": {
           "dark": "./images/icon-status-dark.svg",
           "light": "./images/icon-status-light.svg"
@@ -256,15 +256,15 @@
         "title": "Show project status"
       },
       {
-        "command": "ionide-fsnative.explorer.addProjecRef",
+        "command": "lattice-fsharp.explorer.addProjecRef",
         "title": "Add project reference"
       },
       {
-        "command": "ionide-fsnative.explorer.removeProjecRef",
+        "command": "lattice-fsharp.explorer.removeProjecRef",
         "title": "Remove project reference"
       },
       {
-        "command": "ionide-fsnative.explorer.openProjectFile",
+        "command": "lattice-fsharp.explorer.openProjectFile",
         "icon": {
           "dark": "images/open-file-mono-dark.svg",
           "light": "images/open-file-mono-light.svg"
@@ -272,52 +272,52 @@
         "title": "Open project file"
       },
       {
-        "command": "ionide-fsnative.explorer.refresh",
+        "command": "lattice-fsharp.explorer.refresh",
         "title": "Refresh Explorer"
       },
       {
-        "command": "ionide-fsnative.explorer.clearCache",
+        "command": "lattice-fsharp.explorer.clearCache",
         "title": "Clear project cache"
       },
       {
         "category": "F#",
-        "command": "ionide-fsnative.diagnostics.getInfos",
+        "command": "lattice-fsharp.diagnostics.getInfos",
         "title": "Get info for diagnostics"
       },
       {
-        "command": "ionide-fsnative.explorer.msbuild.build",
+        "command": "lattice-fsharp.explorer.msbuild.build",
         "title": "Build"
       },
       {
-        "command": "ionide-fsnative.explorer.msbuild.rebuild",
+        "command": "lattice-fsharp.explorer.msbuild.rebuild",
         "title": "Rebuild"
       },
       {
-        "command": "ionide-fsnative.explorer.msbuild.clean",
+        "command": "lattice-fsharp.explorer.msbuild.clean",
         "title": "Clean"
       },
       {
-        "command": "ionide-fsnative.explorer.msbuild.restore",
+        "command": "lattice-fsharp.explorer.msbuild.restore",
         "title": "Restore"
       },
       {
-        "command": "ionide-fsnative.explorer.solution.build",
+        "command": "lattice-fsharp.explorer.solution.build",
         "title": "Build"
       },
       {
-        "command": "ionide-fsnative.explorer.solution.rebuild",
+        "command": "lattice-fsharp.explorer.solution.rebuild",
         "title": "Rebuild"
       },
       {
-        "command": "ionide-fsnative.explorer.solution.clean",
+        "command": "lattice-fsharp.explorer.solution.clean",
         "title": "Clean"
       },
       {
-        "command": "ionide-fsnative.explorer.solution.restore",
+        "command": "lattice-fsharp.explorer.solution.restore",
         "title": "Restore"
       },
       {
-        "command": "ionide-fsnative.explorer.project.run",
+        "command": "lattice-fsharp.explorer.project.run",
         "icon": {
           "dark": "./images/run-mono-dark.svg",
           "light": "./images/run-mono-light.svg"
@@ -325,7 +325,7 @@
         "title": "Run"
       },
       {
-        "command": "ionide-fsnative.explorer.project.debug",
+        "command": "lattice-fsharp.explorer.project.debug",
         "icon": {
           "dark": "./images/debug-mono-dark.svg",
           "light": "./images/debug-mono-light.svg"
@@ -333,44 +333,44 @@
         "title": "Debug"
       },
       {
-        "command": "ionide-fsnative.explorer.project.setDefault",
+        "command": "lattice-fsharp.explorer.project.setDefault",
         "title": "Set as startup project"
       },
       {
-        "command": "ionide-fsnative.explorer.project.sendFSI",
+        "command": "lattice-fsharp.explorer.project.sendFSI",
         "title": "Send references for FSI"
       },
       {
-        "command": "ionide-fsnative.explorer.project.generateFSI",
+        "command": "lattice-fsharp.explorer.project.generateFSI",
         "title": "Generate references for FSI"
       },
       {
-        "command": "ionide-fsnative.runDefaultProject",
+        "command": "lattice-fsharp.runDefaultProject",
         "icon": "./images/run.png",
         "title": "F#: Run Default Project"
       },
       {
-        "command": "ionide-fsnative.debugDefaultProject",
+        "command": "lattice-fsharp.debugDefaultProject",
         "icon": "./images/debug.png",
         "title": "F#: Debug Default Project"
       },
       {
-        "command": "ionide-fsnative.chooseDefaultProject",
+        "command": "lattice-fsharp.chooseDefaultProject",
         "title": "F#: Choose Default Project"
       },
       {
-        "command": "ionide-fsnative.explorer.solution.addProject",
+        "command": "lattice-fsharp.explorer.solution.addProject",
         "title": "Add project"
       },
       {
         "category": "F#",
-        "command": "ionide-fsnative.htmlConverter.convert",
+        "command": "lattice-fsharp.htmlConverter.convert",
         "description": "Converts your selection to Elmish by assuming that your selection is HTML code",
         "title": "Convert html to Elmish"
       },
       {
         "category": "F#",
-        "command": "ionide-fsnative.revealInSolutionExplorer",
+        "command": "lattice-fsharp.revealInSolutionExplorer",
         "icon": {
           "dark": "./images/auto-reveal-dark.svg",
           "light": "./images/auto-reveal-light.svg"
@@ -379,23 +379,23 @@
       },
       {
         "category": "F#",
-        "command": "ionide-fsnative.openInfoPanel",
+        "command": "lattice-fsharp.openInfoPanel",
         "description": "Opens Info Panel displaying documentation",
         "title": "Open Info Panel"
       },
       {
         "category": "F#",
-        "command": "ionide-fsnative.updateInfoPanel",
+        "command": "lattice-fsharp.updateInfoPanel",
         "description": "Updates Info Panel with documentation of current symbol",
         "title": "Update Info Panel"
       },
       {
-        "command": "ionide-fsnative.showDocumentation",
+        "command": "lattice-fsharp.showDocumentation",
         "title": "Show Documentation for given symbol"
       },
       {
         "category": "F#",
-        "command": "ionide-fsnative.openInfoPanel.lock",
+        "command": "lattice-fsharp.openInfoPanel.lock",
         "icon": {
           "dark": "./images/lock-solid.svg",
           "light": "./images/lock-solid-light.svg"
@@ -404,7 +404,7 @@
       },
       {
         "category": "F#",
-        "command": "ionide-fsnative.openInfoPanel.unlock",
+        "command": "lattice-fsharp.openInfoPanel.unlock",
         "icon": {
           "dark": "./images/lock-open-solid.svg",
           "light": "./images/lock-open-solid-light.svg"
@@ -413,7 +413,7 @@
       },
       {
         "category": "F#",
-        "command": "ionide-fsnative.restartLanguageService",
+        "command": "lattice-fsharp.restartLanguageService",
         "title": "Restart Language Service"
       }
     ],
@@ -1044,42 +1044,42 @@
         "when": "editorFocus && !findWidgetVisible && editorLangId == 'fsharp'"
       },
       {
-        "command": "ionide-fsnative.explorer.moveUp",
+        "command": "lattice-fsharp.explorer.moveUp",
         "key": "alt+up",
-        "when": "focusedView == 'ionide-fsnative.projectExplorerInActivity' || focusedView == 'ionide-fsnative.projectExplorer'"
+        "when": "focusedView == 'lattice-fsharp.projectExplorerInActivity' || focusedView == 'lattice-fsharp.projectExplorer'"
       },
       {
-        "command": "ionide-fsnative.explorer.moveDown",
+        "command": "lattice-fsharp.explorer.moveDown",
         "key": "alt+down",
-        "when": "focusedView == 'ionide-fsnative.projectExplorerInActivity' || focusedView == 'ionide-fsnative.projectExplorer'"
+        "when": "focusedView == 'lattice-fsharp.projectExplorerInActivity' || focusedView == 'lattice-fsharp.projectExplorer'"
       },
       {
-        "command": "ionide-fsnative.generateDoc",
+        "command": "lattice-fsharp.generateDoc",
         "key": "alt+shift+j",
         "when": "editorFocus && editorLangId == 'fsharp'"
       },
       {
-        "command": "ionide-fsnative.getHelp",
+        "command": "lattice-fsharp.getHelp",
         "key": "shift+F1",
         "when": "editorFocus && editorLangId == 'fsharp'"
       },
       {
         "command": "MSBuild.buildCurrent",
         "key": "ctrl+alt+b",
-        "when": "ionide-fsnative.project.any && editorFocus && editorLangId == 'fsharp'"
+        "when": "lattice-fsharp.project.any && editorFocus && editorLangId == 'fsharp'"
       },
       {
         "command": "MSBuild.buildCurrentSolution",
         "key": "ctrl+alt+shift+b",
-        "when": "ionide-fsnative.project.any"
+        "when": "lattice-fsharp.project.any"
       },
       {
-        "command": "ionide-fsnative.openInfoPanel",
+        "command": "lattice-fsharp.openInfoPanel",
         "key": "alt+,",
         "when": "editorFocus && editorLangId == 'fsharp'"
       },
       {
-        "command": "ionide-fsnative.updateInfoPanel",
+        "command": "lattice-fsharp.updateInfoPanel",
         "key": "alt+.",
         "when": "editorFocus && editorLangId == 'fsharp'"
       }
@@ -1125,111 +1125,111 @@
     "menus": {
       "commandPalette": [
         {
-          "command": "ionide-fsnative.explorer.moveUp",
+          "command": "lattice-fsharp.explorer.moveUp",
           "when": "false"
         },
         {
-          "command": "ionide-fsnative.explorer.moveDown",
+          "command": "lattice-fsharp.explorer.moveDown",
           "when": "false"
         },
         {
-          "command": "ionide-fsnative.explorer.renameFile",
+          "command": "lattice-fsharp.explorer.renameFile",
           "when": "false"
         },
         {
-          "command": "ionide-fsnative.explorer.removeFile",
+          "command": "lattice-fsharp.explorer.removeFile",
           "when": "false"
         },
         {
-          "command": "ionide-fsnative.explorer.addAbove",
+          "command": "lattice-fsharp.explorer.addAbove",
           "when": "false"
         },
         {
-          "command": "ionide-fsnative.explorer.addBelow",
+          "command": "lattice-fsharp.explorer.addBelow",
           "when": "false"
         },
         {
-          "command": "ionide-fsnative.explorer.addFile",
+          "command": "lattice-fsharp.explorer.addFile",
           "when": "false"
         },
         {
-          "command": "ionide-fsnative.explorer.addExistingFile",
+          "command": "lattice-fsharp.explorer.addExistingFile",
           "when": "false"
         },
         {
-          "command": "ionide-fsnative.explorer.addProjecRef",
+          "command": "lattice-fsharp.explorer.addProjecRef",
           "when": "false"
         },
         {
-          "command": "ionide-fsnative.explorer.removeProjecRef",
+          "command": "lattice-fsharp.explorer.removeProjecRef",
           "when": "false"
         },
         {
-          "command": "ionide-fsnative.explorer.openProjectFile",
+          "command": "lattice-fsharp.explorer.openProjectFile",
           "when": "false"
         },
         {
-          "command": "ionide-fsnative.explorer.refresh",
+          "command": "lattice-fsharp.explorer.refresh",
           "when": "false"
         },
         {
-          "command": "ionide-fsnative.explorer.clearCache",
+          "command": "lattice-fsharp.explorer.clearCache",
           "when": "false"
         },
         {
-          "command": "ionide-fsnative.explorer.msbuild.build",
+          "command": "lattice-fsharp.explorer.msbuild.build",
           "when": "false"
         },
         {
-          "command": "ionide-fsnative.explorer.msbuild.rebuild",
+          "command": "lattice-fsharp.explorer.msbuild.rebuild",
           "when": "false"
         },
         {
-          "command": "ionide-fsnative.explorer.msbuild.clean",
+          "command": "lattice-fsharp.explorer.msbuild.clean",
           "when": "false"
         },
         {
-          "command": "ionide-fsnative.explorer.msbuild.restore",
+          "command": "lattice-fsharp.explorer.msbuild.restore",
           "when": "false"
         },
         {
-          "command": "ionide-fsnative.explorer.solution.build",
+          "command": "lattice-fsharp.explorer.solution.build",
           "when": "false"
         },
         {
-          "command": "ionide-fsnative.explorer.solution.rebuild",
+          "command": "lattice-fsharp.explorer.solution.rebuild",
           "when": "false"
         },
         {
-          "command": "ionide-fsnative.explorer.solution.clean",
+          "command": "lattice-fsharp.explorer.solution.clean",
           "when": "false"
         },
         {
-          "command": "ionide-fsnative.explorer.solution.restore",
+          "command": "lattice-fsharp.explorer.solution.restore",
           "when": "false"
         },
         {
-          "command": "ionide-fsnative.explorer.project.run",
+          "command": "lattice-fsharp.explorer.project.run",
           "when": "false"
         },
         {
-          "command": "ionide-fsnative.explorer.project.debug",
+          "command": "lattice-fsharp.explorer.project.debug",
           "when": "false"
         },
         {
-          "command": "ionide-fsnative.explorer.project.setDefault",
+          "command": "lattice-fsharp.explorer.project.setDefault",
           "when": "false"
         },
         {
-          "command": "ionide-fsnative.explorer.project.sendFSI",
+          "command": "lattice-fsharp.explorer.project.sendFSI",
           "when": "false"
         },
         {
-          "command": "ionide-fsnative.explorer.project.generateFSI",
+          "command": "lattice-fsharp.explorer.project.generateFSI",
           "when": "false"
         },
         {
-          "command": "ionide-fsnative.explorer.solution.addProject",
+          "command": "lattice-fsharp.explorer.solution.addProject",
           "when": "false"
         },
         {
@@ -1237,8 +1237,8 @@
           "when": "editorLangId == 'fsharp'"
         },
         {
-          "command": "ionide-fsnative.AddFileToProject",
-          "when": "ionide-fsnative.project.any && editorLangId == 'fsharp'"
+          "command": "lattice-fsharp.AddFileToProject",
+          "when": "lattice-fsharp.project.any && editorLangId == 'fsharp'"
         },
         {
           "command": "fsi.SendSelection",
@@ -1258,96 +1258,96 @@
         },
         {
           "command": "fsi.SendProjectReferences",
-          "when": "ionide-fsnative.project.any && editorLangId == 'fsharp'"
+          "when": "lattice-fsharp.project.any && editorLangId == 'fsharp'"
         },
         {
           "command": "fsi.GenerateProjectReferences",
-          "when": "ionide-fsnative.project.any && editorLangId == 'fsharp'"
+          "when": "lattice-fsharp.project.any && editorLangId == 'fsharp'"
         },
         {
-          "command": "ionide-fsnative.scriptrunner.run",
+          "command": "lattice-fsharp.scriptrunner.run",
           "when": "editorLangId == 'fsharp' && resourceExtname == '.fsx'"
         },
         {
-          "command": "ionide-fsnative.getHelp",
+          "command": "lattice-fsharp.getHelp",
           "when": "editorLangId == 'fsharp'"
         },
         {
-          "command": "ionide-fsnative.generateDoc",
+          "command": "lattice-fsharp.generateDoc",
           "when": "editorLangId == 'fsharp'"
         },
         {
           "command": "MSBuild.buildCurrent",
-          "when": "ionide-fsnative.project.any && editorLangId == 'fsharp'"
+          "when": "lattice-fsharp.project.any && editorLangId == 'fsharp'"
         },
         {
           "command": "MSBuild.rebuildCurrent",
-          "when": "ionide-fsnative.project.any && editorLangId == 'fsharp'"
+          "when": "lattice-fsharp.project.any && editorLangId == 'fsharp'"
         },
         {
           "command": "MSBuild.cleanCurrent",
-          "when": "ionide-fsnative.project.any && editorLangId == 'fsharp'"
+          "when": "lattice-fsharp.project.any && editorLangId == 'fsharp'"
         },
         {
-          "command": "ionide-fsnative.clearCache",
-          "when": "ionide-fsnative.project.any"
+          "command": "lattice-fsharp.clearCache",
+          "when": "lattice-fsharp.project.any"
         },
         {
           "command": "MSBuild.buildSelected",
-          "when": "ionide-fsnative.project.any"
+          "when": "lattice-fsharp.project.any"
         },
         {
           "command": "MSBuild.rebuildSelected",
-          "when": "ionide-fsnative.project.any"
+          "when": "lattice-fsharp.project.any"
         },
         {
           "command": "MSBuild.cleanSelected",
-          "when": "ionide-fsnative.project.any"
+          "when": "lattice-fsharp.project.any"
         },
         {
           "command": "MSBuild.restoreSelected",
-          "when": "ionide-fsnative.project.any"
+          "when": "lattice-fsharp.project.any"
         },
         {
           "command": "MSBuild.buildCurrentSolution",
-          "when": "ionide-fsnative.project.any"
+          "when": "lattice-fsharp.project.any"
         },
         {
           "command": "MSBuild.rebuildCurrentSolution",
-          "when": "ionide-fsnative.project.any"
+          "when": "lattice-fsharp.project.any"
         },
         {
           "command": "MSBuild.cleanCurrentSolution",
-          "when": "ionide-fsnative.project.any"
+          "when": "lattice-fsharp.project.any"
         },
         {
-          "command": "ionide-fsnative.runDefaultProject",
-          "when": "ionide-fsnative.project.any"
+          "command": "lattice-fsharp.runDefaultProject",
+          "when": "lattice-fsharp.project.any"
         },
         {
-          "command": "ionide-fsnative.debugDefaultProject",
-          "when": "ionide-fsnative.project.any"
+          "command": "lattice-fsharp.debugDefaultProject",
+          "when": "lattice-fsharp.project.any"
         },
         {
-          "command": "ionide-fsnative.chooseDefaultProject",
-          "when": "ionide-fsnative.project.any"
+          "command": "lattice-fsharp.chooseDefaultProject",
+          "when": "lattice-fsharp.project.any"
         },
         {
-          "command": "ionide-fsnative.NewProject",
+          "command": "lattice-fsharp.NewProject",
           "when": "workbenchState != empty"
         },
         {
-          "command": "ionide-fsnative.showDocumentation",
+          "command": "lattice-fsharp.showDocumentation",
           "when": "false"
         },
         {
-          "command": "ionide-fsnative.restartLanguageService",
+          "command": "lattice-fsharp.restartLanguageService",
           "when": "editorLangId == 'fsharp'"
         }
       ],
       "editor/context": [
         {
-          "command": "ionide-fsnative.generateDoc",
+          "command": "lattice-fsharp.generateDoc",
           "group": "1_modification",
           "when": "editorTextFocus && editorLangId == 'fsharp'"
         }
@@ -1359,36 +1359,36 @@
           "when": "editorLangId == 'fsharp' && resourceExtname == '.fsx'"
         },
         {
-          "command": "ionide-fsnative.scriptrunner.run",
+          "command": "lattice-fsharp.scriptrunner.run",
           "group": "navigation",
           "when": "editorLangId == 'fsharp' && resourceExtname == '.fsx'"
         },
         {
-          "command": "ionide-fsnative.openInfoPanel.unlock",
+          "command": "lattice-fsharp.openInfoPanel.unlock",
           "group": "navigation",
           "when": "infoPanelFocused && infoPanelLocked"
         },
         {
-          "command": "ionide-fsnative.openInfoPanel.lock",
+          "command": "lattice-fsharp.openInfoPanel.lock",
           "group": "navigation",
           "when": "infoPanelFocused && !infoPanelLocked"
         }
       ],
       "touchBar": [
         {
-          "command": "ionide-fsnative.debugDefaultProject",
+          "command": "lattice-fsharp.debugDefaultProject",
           "group": "fsharp",
-          "when": "ionide-fsnative.project.any && config.FSharp.enableTouchBar"
+          "when": "lattice-fsharp.project.any && config.FSharp.enableTouchBar"
         },
         {
-          "command": "ionide-fsnative.runDefaultProject",
+          "command": "lattice-fsharp.runDefaultProject",
           "group": "fsharp",
-          "when": "ionide-fsnative.project.any && config.FSharp.enableTouchBar"
+          "when": "lattice-fsharp.project.any && config.FSharp.enableTouchBar"
         },
         {
-          "command": "ionide-fsnative.NewProject",
+          "command": "lattice-fsharp.NewProject",
           "group": "fsharp",
-          "when": "ionide-fsnative.project.any && config.FSharp.enableTouchBar"
+          "when": "lattice-fsharp.project.any && config.FSharp.enableTouchBar"
         },
         {
           "command": "fsi.Start",
@@ -1403,341 +1403,341 @@
       ],
       "view/item/context": [
         {
-          "command": "ionide-fsnative.explorer.moveUp",
+          "command": "lattice-fsharp.explorer.moveUp",
           "group": "1_navigation@1",
-          "when": "viewItem == ionide-fsnative.projectExplorer.file"
+          "when": "viewItem == lattice-fsharp.projectExplorer.file"
         },
         {
-          "command": "ionide-fsnative.explorer.moveUp",
+          "command": "lattice-fsharp.explorer.moveUp",
           "group": "inline@1",
-          "when": "viewItem == ionide-fsnative.projectExplorer.file"
+          "when": "viewItem == lattice-fsharp.projectExplorer.file"
         },
         {
-          "command": "ionide-fsnative.explorer.moveDown",
+          "command": "lattice-fsharp.explorer.moveDown",
           "group": "1_navigation@2",
-          "when": "viewItem == ionide-fsnative.projectExplorer.file"
+          "when": "viewItem == lattice-fsharp.projectExplorer.file"
         },
         {
-          "command": "ionide-fsnative.explorer.moveDown",
+          "command": "lattice-fsharp.explorer.moveDown",
           "group": "inline@2",
-          "when": "viewItem == ionide-fsnative.projectExplorer.file"
+          "when": "viewItem == lattice-fsharp.projectExplorer.file"
         },
         {
-          "command": "ionide-fsnative.explorer.renameFile",
+          "command": "lattice-fsharp.explorer.renameFile",
           "group": "2_action@1",
-          "when": "viewItem == ionide-fsnative.projectExplorer.file"
+          "when": "viewItem == lattice-fsharp.projectExplorer.file"
         },
         {
-          "command": "ionide-fsnative.explorer.removeFile",
+          "command": "lattice-fsharp.explorer.removeFile",
           "group": "2_action@2",
-          "when": "viewItem == ionide-fsnative.projectExplorer.file"
+          "when": "viewItem == lattice-fsharp.projectExplorer.file"
         },
         {
-          "command": "ionide-fsnative.explorer.addAbove",
+          "command": "lattice-fsharp.explorer.addAbove",
           "group": "3_add@1",
-          "when": "viewItem == ionide-fsnative.projectExplorer.file"
+          "when": "viewItem == lattice-fsharp.projectExplorer.file"
         },
         {
-          "command": "ionide-fsnative.explorer.addBelow",
+          "command": "lattice-fsharp.explorer.addBelow",
           "group": "3_add@2",
-          "when": "viewItem == ionide-fsnative.projectExplorer.file"
+          "when": "viewItem == lattice-fsharp.projectExplorer.file"
         },
         {
-          "command": "ionide-fsnative.explorer.openProjectFile",
-          "when": "viewItem == ionide-fsnative.projectExplorer.projectNotLoaded"
+          "command": "lattice-fsharp.explorer.openProjectFile",
+          "when": "viewItem == lattice-fsharp.projectExplorer.projectNotLoaded"
         },
         {
-          "command": "ionide-fsnative.explorer.openProjectFile",
+          "command": "lattice-fsharp.explorer.openProjectFile",
           "group": "inline@99",
-          "when": "viewItem == ionide-fsnative.projectExplorer.projectNotLoaded"
+          "when": "viewItem == lattice-fsharp.projectExplorer.projectNotLoaded"
         },
         {
-          "command": "ionide-fsnative.explorer.showProjectLoadFailedInfo",
+          "command": "lattice-fsharp.explorer.showProjectLoadFailedInfo",
           "group": "inline@98",
-          "when": "viewItem == ionide-fsnative.projectExplorer.projectLoadFailed"
+          "when": "viewItem == lattice-fsharp.projectExplorer.projectLoadFailed"
         },
         {
-          "command": "ionide-fsnative.explorer.openProjectFile",
-          "when": "viewItem == ionide-fsnative.projectExplorer.projectLoadFailed"
+          "command": "lattice-fsharp.explorer.openProjectFile",
+          "when": "viewItem == lattice-fsharp.projectExplorer.projectLoadFailed"
         },
         {
-          "command": "ionide-fsnative.explorer.openProjectFile",
+          "command": "lattice-fsharp.explorer.openProjectFile",
           "group": "inline@99",
-          "when": "viewItem == ionide-fsnative.projectExplorer.projectLoadFailed"
+          "when": "viewItem == lattice-fsharp.projectExplorer.projectLoadFailed"
         },
         {
-          "command": "ionide-fsnative.explorer.showProjectStatus",
-          "when": "viewItem == ionide-fsnative.projectExplorer.projectLoading"
+          "command": "lattice-fsharp.explorer.showProjectStatus",
+          "when": "viewItem == lattice-fsharp.projectExplorer.projectLoading"
         },
         {
-          "command": "ionide-fsnative.explorer.openProjectFile",
-          "when": "viewItem == ionide-fsnative.projectExplorer.projectLoading"
+          "command": "lattice-fsharp.explorer.openProjectFile",
+          "when": "viewItem == lattice-fsharp.projectExplorer.projectLoading"
         },
         {
-          "command": "ionide-fsnative.explorer.openProjectFile",
-          "when": "viewItem == ionide-fsnative.projectExplorer.projectNotRestored"
+          "command": "lattice-fsharp.explorer.openProjectFile",
+          "when": "viewItem == lattice-fsharp.projectExplorer.projectNotRestored"
         },
         {
-          "command": "ionide-fsnative.explorer.openProjectFile",
+          "command": "lattice-fsharp.explorer.openProjectFile",
           "group": "inline@99",
-          "when": "viewItem == ionide-fsnative.projectExplorer.projectLoading"
+          "when": "viewItem == lattice-fsharp.projectExplorer.projectLoading"
         },
         {
-          "command": "ionide-fsnative.explorer.openProjectFile",
+          "command": "lattice-fsharp.explorer.openProjectFile",
           "group": "inline@99",
-          "when": "viewItem == ionide-fsnative.projectExplorer.projectNotRestored"
+          "when": "viewItem == lattice-fsharp.projectExplorer.projectNotRestored"
         },
         {
-          "command": "ionide-fsnative.explorer.showProjectStatus",
+          "command": "lattice-fsharp.explorer.showProjectStatus",
           "group": "inline@98",
-          "when": "viewItem == ionide-fsnative.projectExplorer.projectNotRestored"
+          "when": "viewItem == lattice-fsharp.projectExplorer.projectNotRestored"
         },
         {
-          "command": "ionide-fsnative.explorer.addProjecRef",
-          "when": "viewItem == ionide-fsnative.projectExplorer.projectRefList"
+          "command": "lattice-fsharp.explorer.addProjecRef",
+          "when": "viewItem == lattice-fsharp.projectExplorer.projectRefList"
         },
         {
-          "command": "ionide-fsnative.explorer.removeProjecRef",
-          "when": "viewItem == ionide-fsnative.projectExplorer.projRef"
+          "command": "lattice-fsharp.explorer.removeProjecRef",
+          "when": "viewItem == lattice-fsharp.projectExplorer.projRef"
         },
         {
-          "command": "ionide-fsnative.explorer.openProjectFile",
+          "command": "lattice-fsharp.explorer.openProjectFile",
           "group": "4_derails@1",
-          "when": "viewItem == ionide-fsnative.projectExplorer.project"
+          "when": "viewItem == lattice-fsharp.projectExplorer.project"
         },
         {
-          "command": "ionide-fsnative.explorer.openProjectFile",
+          "command": "lattice-fsharp.explorer.openProjectFile",
           "group": "inline@99",
-          "when": "viewItem == ionide-fsnative.projectExplorer.project"
+          "when": "viewItem == lattice-fsharp.projectExplorer.project"
         },
         {
-          "command": "ionide-fsnative.explorer.showProjectStatus",
+          "command": "lattice-fsharp.explorer.showProjectStatus",
           "group": "4_details@2",
-          "when": "viewItem == ionide-fsnative.projectExplorer.project"
+          "when": "viewItem == lattice-fsharp.projectExplorer.project"
         },
         {
-          "command": "ionide-fsnative.explorer.addFile",
+          "command": "lattice-fsharp.explorer.addFile",
           "group": "2_modifications@1",
-          "when": "viewItem == ionide-fsnative.projectExplorer.project"
+          "when": "viewItem == lattice-fsharp.projectExplorer.project"
         },
         {
-          "command": "ionide-fsnative.explorer.addExistingFile",
+          "command": "lattice-fsharp.explorer.addExistingFile",
           "group": "2_modifications@2",
-          "when": "viewItem == ionide-fsnative.projectExplorer.project"
+          "when": "viewItem == lattice-fsharp.projectExplorer.project"
         },
         {
-          "command": "ionide-fsnative.explorer.project.generateFSI",
+          "command": "lattice-fsharp.explorer.project.generateFSI",
           "group": "3_fsi@1",
-          "when": "viewItem == ionide-fsnative.projectExplorer.project"
+          "when": "viewItem == lattice-fsharp.projectExplorer.project"
         },
         {
-          "command": "ionide-fsnative.explorer.project.sendFSI",
+          "command": "lattice-fsharp.explorer.project.sendFSI",
           "group": "3_fsi@2",
-          "when": "viewItem == ionide-fsnative.projectExplorer.project"
+          "when": "viewItem == lattice-fsharp.projectExplorer.project"
         },
         {
-          "command": "ionide-fsnative.explorer.msbuild.build",
+          "command": "lattice-fsharp.explorer.msbuild.build",
           "group": "1_navigation@1",
-          "when": "viewItem == ionide-fsnative.projectExplorer.project"
+          "when": "viewItem == lattice-fsharp.projectExplorer.project"
         },
         {
-          "command": "ionide-fsnative.explorer.msbuild.rebuild",
+          "command": "lattice-fsharp.explorer.msbuild.rebuild",
           "group": "1_navigation@2",
-          "when": "viewItem == ionide-fsnative.projectExplorer.project"
+          "when": "viewItem == lattice-fsharp.projectExplorer.project"
         },
         {
-          "command": "ionide-fsnative.explorer.msbuild.clean",
+          "command": "lattice-fsharp.explorer.msbuild.clean",
           "group": "1_navigation@3",
-          "when": "viewItem == ionide-fsnative.projectExplorer.project"
+          "when": "viewItem == lattice-fsharp.projectExplorer.project"
         },
         {
-          "command": "ionide-fsnative.explorer.msbuild.restore",
+          "command": "lattice-fsharp.explorer.msbuild.restore",
           "group": "1_navigation@4",
-          "when": "viewItem == ionide-fsnative.projectExplorer.project"
+          "when": "viewItem == lattice-fsharp.projectExplorer.project"
         },
         {
-          "command": "ionide-fsnative.explorer.msbuild.restore",
+          "command": "lattice-fsharp.explorer.msbuild.restore",
           "group": "1_navigation@1",
-          "when": "viewItem == ionide-fsnative.projectExplorer.projectNotRestored"
+          "when": "viewItem == lattice-fsharp.projectExplorer.projectNotRestored"
         },
         {
-          "command": "ionide-fsnative.explorer.solution.build",
+          "command": "lattice-fsharp.explorer.solution.build",
           "group": "1_navigation@1",
-          "when": "viewItem == ionide-fsnative.projectExplorer.solution"
+          "when": "viewItem == lattice-fsharp.projectExplorer.solution"
         },
         {
-          "command": "ionide-fsnative.explorer.solution.rebuild",
+          "command": "lattice-fsharp.explorer.solution.rebuild",
           "group": "1_navigation@2",
-          "when": "viewItem == ionide-fsnative.projectExplorer.solution"
+          "when": "viewItem == lattice-fsharp.projectExplorer.solution"
         },
         {
-          "command": "ionide-fsnative.explorer.solution.clean",
+          "command": "lattice-fsharp.explorer.solution.clean",
           "group": "1_navigation@3",
-          "when": "viewItem == ionide-fsnative.projectExplorer.solution"
+          "when": "viewItem == lattice-fsharp.projectExplorer.solution"
         },
         {
-          "command": "ionide-fsnative.explorer.solution.restore",
+          "command": "lattice-fsharp.explorer.solution.restore",
           "group": "1_navigation@3",
-          "when": "viewItem == ionide-fsnative.projectExplorer.solution"
+          "when": "viewItem == lattice-fsharp.projectExplorer.solution"
         },
         {
-          "command": "ionide-fsnative.explorer.solution.addProject",
+          "command": "lattice-fsharp.explorer.solution.addProject",
           "group": "2_modification@1",
-          "when": "viewItem == ionide-fsnative.projectExplorer.solution"
+          "when": "viewItem == lattice-fsharp.projectExplorer.solution"
         },
         {
-          "command": "ionide-fsnative.explorer.addFile",
+          "command": "lattice-fsharp.explorer.addFile",
           "group": "3_modifications@1",
-          "when": "viewItem == ionide-fsnative.projectExplorer.projectExe"
+          "when": "viewItem == lattice-fsharp.projectExplorer.projectExe"
         },
         {
-          "command": "ionide-fsnative.explorer.addExistingFile",
+          "command": "lattice-fsharp.explorer.addExistingFile",
           "group": "3_modifications@2",
-          "when": "viewItem == ionide-fsnative.projectExplorer.projectExe"
+          "when": "viewItem == lattice-fsharp.projectExplorer.projectExe"
         },
         {
-          "command": "ionide-fsnative.explorer.project.generateFSI",
+          "command": "lattice-fsharp.explorer.project.generateFSI",
           "group": "4_fsi@1",
-          "when": "viewItem == ionide-fsnative.projectExplorer.projectExe"
+          "when": "viewItem == lattice-fsharp.projectExplorer.projectExe"
         },
         {
-          "command": "ionide-fsnative.explorer.project.sendFSI",
+          "command": "lattice-fsharp.explorer.project.sendFSI",
           "group": "4_fsi@2",
-          "when": "viewItem == ionide-fsnative.projectExplorer.projectExe"
+          "when": "viewItem == lattice-fsharp.projectExplorer.projectExe"
         },
         {
-          "command": "ionide-fsnative.explorer.openProjectFile",
+          "command": "lattice-fsharp.explorer.openProjectFile",
           "group": "5_detail@1",
-          "when": "viewItem == ionide-fsnative.projectExplorer.projectExe"
+          "when": "viewItem == lattice-fsharp.projectExplorer.projectExe"
         },
         {
-          "command": "ionide-fsnative.explorer.openProjectFile",
+          "command": "lattice-fsharp.explorer.openProjectFile",
           "group": "inline@99",
-          "when": "viewItem == ionide-fsnative.projectExplorer.projectExe"
+          "when": "viewItem == lattice-fsharp.projectExplorer.projectExe"
         },
         {
-          "command": "ionide-fsnative.explorer.showProjectStatus",
+          "command": "lattice-fsharp.explorer.showProjectStatus",
           "group": "5_detail@2",
-          "when": "viewItem == ionide-fsnative.projectExplorer.projectExe"
+          "when": "viewItem == lattice-fsharp.projectExplorer.projectExe"
         },
         {
-          "command": "ionide-fsnative.explorer.msbuild.build",
+          "command": "lattice-fsharp.explorer.msbuild.build",
           "group": "2_navigation@1",
-          "when": "viewItem == ionide-fsnative.projectExplorer.projectExe"
+          "when": "viewItem == lattice-fsharp.projectExplorer.projectExe"
         },
         {
-          "command": "ionide-fsnative.explorer.msbuild.rebuild",
+          "command": "lattice-fsharp.explorer.msbuild.rebuild",
           "group": "2_navigation@2",
-          "when": "viewItem == ionide-fsnative.projectExplorer.projectExe"
+          "when": "viewItem == lattice-fsharp.projectExplorer.projectExe"
         },
         {
-          "command": "ionide-fsnative.explorer.msbuild.clean",
+          "command": "lattice-fsharp.explorer.msbuild.clean",
           "group": "2_navigation@3",
-          "when": "viewItem == ionide-fsnative.projectExplorer.projectExe"
+          "when": "viewItem == lattice-fsharp.projectExplorer.projectExe"
         },
         {
-          "command": "ionide-fsnative.explorer.msbuild.restore",
+          "command": "lattice-fsharp.explorer.msbuild.restore",
           "group": "2_navigation@4",
-          "when": "viewItem == ionide-fsnative.projectExplorer.projectExe"
+          "when": "viewItem == lattice-fsharp.projectExplorer.projectExe"
         },
         {
-          "command": "ionide-fsnative.explorer.project.run",
+          "command": "lattice-fsharp.explorer.project.run",
           "group": "1_run@1",
-          "when": "viewItem == ionide-fsnative.projectExplorer.projectExe"
+          "when": "viewItem == lattice-fsharp.projectExplorer.projectExe"
         },
         {
-          "command": "ionide-fsnative.explorer.project.run",
+          "command": "lattice-fsharp.explorer.project.run",
           "group": "inline@1",
-          "when": "viewItem == ionide-fsnative.projectExplorer.projectExe"
+          "when": "viewItem == lattice-fsharp.projectExplorer.projectExe"
         },
         {
-          "command": "ionide-fsnative.explorer.project.debug",
+          "command": "lattice-fsharp.explorer.project.debug",
           "group": "1_run@2",
-          "when": "viewItem == ionide-fsnative.projectExplorer.projectExe"
+          "when": "viewItem == lattice-fsharp.projectExplorer.projectExe"
         },
         {
-          "command": "ionide-fsnative.explorer.project.debug",
+          "command": "lattice-fsharp.explorer.project.debug",
           "group": "inline@2",
-          "when": "viewItem == ionide-fsnative.projectExplorer.projectExe"
+          "when": "viewItem == lattice-fsharp.projectExplorer.projectExe"
         },
         {
-          "command": "ionide-fsnative.explorer.project.setDefault",
+          "command": "lattice-fsharp.explorer.project.setDefault",
           "group": "1_run@3",
-          "when": "viewItem == ionide-fsnative.projectExplorer.projectExe"
+          "when": "viewItem == lattice-fsharp.projectExplorer.projectExe"
         }
       ],
       "view/title": [
         {
-          "command": "ionide-fsnative.NewProject",
+          "command": "lattice-fsharp.NewProject",
           "group": "navigation@1",
-          "when": "view == ionide-fsnative.projectExplorer"
+          "when": "view == lattice-fsharp.projectExplorer"
         },
         {
-          "command": "ionide-fsnative.NewProject",
+          "command": "lattice-fsharp.NewProject",
           "group": "navigation@1",
-          "when": "view == ionide-fsnative.projectExplorerInActivity"
+          "when": "view == lattice-fsharp.projectExplorerInActivity"
         },
         {
-          "alt": "ionide-fsnative.runDefaultProject",
-          "command": "ionide-fsnative.debugDefaultProject",
+          "alt": "lattice-fsharp.runDefaultProject",
+          "command": "lattice-fsharp.debugDefaultProject",
           "group": "navigation@2",
-          "when": "view == ionide-fsnative.projectExplorer"
+          "when": "view == lattice-fsharp.projectExplorer"
         },
         {
-          "alt": "ionide-fsnative.runDefaultProject",
-          "command": "ionide-fsnative.debugDefaultProject",
+          "alt": "lattice-fsharp.runDefaultProject",
+          "command": "lattice-fsharp.debugDefaultProject",
           "group": "navigation@2",
-          "when": "view == ionide-fsnative.projectExplorerInActivity"
+          "when": "view == lattice-fsharp.projectExplorerInActivity"
         },
         {
-          "command": "ionide-fsnative.revealInSolutionExplorer",
+          "command": "lattice-fsharp.revealInSolutionExplorer",
           "group": "navigation@3",
-          "when": "view == ionide-fsnative.projectExplorer"
+          "when": "view == lattice-fsharp.projectExplorer"
         },
         {
-          "command": "ionide-fsnative.revealInSolutionExplorer",
+          "command": "lattice-fsharp.revealInSolutionExplorer",
           "group": "navigation@3",
-          "when": "view == ionide-fsnative.projectExplorerInActivity"
+          "when": "view == lattice-fsharp.projectExplorerInActivity"
         },
         {
-          "command": "ionide-fsnative.changeWorkspace",
+          "command": "lattice-fsharp.changeWorkspace",
           "group": "modification@1",
-          "when": "view == ionide-fsnative.projectExplorer"
+          "when": "view == lattice-fsharp.projectExplorer"
         },
         {
-          "command": "ionide-fsnative.changeWorkspace",
+          "command": "lattice-fsharp.changeWorkspace",
           "group": "modification@1",
-          "when": "view == ionide-fsnative.projectExplorerInActivity"
+          "when": "view == lattice-fsharp.projectExplorerInActivity"
         },
         {
-          "command": "ionide-fsnative.chooseDefaultProject",
+          "command": "lattice-fsharp.chooseDefaultProject",
           "group": "modification@3",
-          "when": "view == ionide-fsnative.projectExplorer"
+          "when": "view == lattice-fsharp.projectExplorer"
         },
         {
-          "command": "ionide-fsnative.chooseDefaultProject",
+          "command": "lattice-fsharp.chooseDefaultProject",
           "group": "modification@3",
-          "when": "view == ionide-fsnative.projectExplorerInActivity"
+          "when": "view == lattice-fsharp.projectExplorerInActivity"
         },
         {
-          "command": "ionide-fsnative.explorer.refresh",
+          "command": "lattice-fsharp.explorer.refresh",
           "group": "modification@4",
-          "when": "view == ionide-fsnative.projectExplorer"
+          "when": "view == lattice-fsharp.projectExplorer"
         },
         {
-          "command": "ionide-fsnative.explorer.refresh",
+          "command": "lattice-fsharp.explorer.refresh",
           "group": "modification@4",
-          "when": "view == ionide-fsnative.projectExplorerInActivity"
+          "when": "view == lattice-fsharp.projectExplorerInActivity"
         },
         {
-          "command": "ionide-fsnative.explorer.clearCache",
+          "command": "lattice-fsharp.explorer.clearCache",
           "group": "modification@5",
-          "when": "view == ionide-fsnative.projectExplorer"
+          "when": "view == lattice-fsharp.projectExplorer"
         },
         {
-          "command": "ionide-fsnative.explorer.clearCache",
+          "command": "lattice-fsharp.explorer.clearCache",
           "group": "modification@5",
-          "when": "view == ionide-fsnative.projectExplorerInActivity"
+          "when": "view == lattice-fsharp.projectExplorerInActivity"
         }
       ]
     },
@@ -1842,7 +1842,7 @@
       "profiles": [
         {
           "icon": "terminal",
-          "id": "ionide-fsnative.fsi",
+          "id": "lattice-fsharp.fsi",
           "title": "F# Interactive"
         }
       ]
@@ -1850,16 +1850,16 @@
     "views": {
       "explorer": [
         {
-          "id": "ionide-fsnative.projectExplorer",
+          "id": "lattice-fsharp.projectExplorer",
           "name": "F# Solution Explorer",
-          "when": "ionide-fsnative.project.any && fsharp.showProjectExplorerInExplorerActivity"
+          "when": "lattice-fsharp.project.any && fsharp.showProjectExplorerInExplorerActivity"
         }
       ],
-      "ionide-fsnative": [
+      "lattice-fsharp": [
         {
-          "id": "ionide-fsnative.projectExplorerInActivity",
+          "id": "lattice-fsharp.projectExplorerInActivity",
           "name": "Solution Explorer",
-          "when": "ionide-fsnative.project.any && fsharp.showProjectExplorerInFsharpActivity"
+          "when": "lattice-fsharp.project.any && fsharp.showProjectExplorerInFsharpActivity"
         }
       ]
     },
@@ -1873,9 +1873,9 @@
       "activitybar": [
         {
           "icon": "images/activity-fsharp-logo.svg",
-          "id": "ionide-fsnative",
+          "id": "lattice-fsharp",
           "title": "F#",
-          "when": "ionide-fsnative.showProjectExplorerInFsharpActivity"
+          "when": "lattice-fsharp.showProjectExplorerInFsharpActivity"
         }
       ]
     },
@@ -1895,8 +1895,8 @@
       "url": "https://twitter.com/chet_husk"
     }
   ],
-  "description": "F# Native Language Support, powered by FsNativeAutoComplete",
-  "displayName": "Ionide for F# (Native)",
+  "description": "F# Native Language Support for polyglot systems programming (F#, MLIR, LLVM, F*, Lua, C)",
+  "displayName": "Lattice for F#",
   "engines": {
     "vscode": "^0.10.0"
   },
@@ -1906,16 +1906,16 @@
     "muhammad-sammy.csharp"
   ],
   "extensionDependencies": [],
-  "homepage": "https://github.com/FidelityFramework/ionide-vscode-fsnative",
+  "homepage": "https://github.com/FidelityFramework/lattice-vscode",
   "icon": "images/logo.png",
   "license": "MIT",
   "main": "./fsharp",
-  "name": "ionide-fsnative",
+  "name": "lattice-fsharp",
   "preview": false,
   "publisher": "SpeakEZtech",
   "repository": {
     "type": "git",
-    "url": "https://github.com/FidelityFramework/ionide-vscode-fsnative.git"
+    "url": "https://github.com/FidelityFramework/lattice-vscode.git"
   },
   "version": "0.1.0"
 }

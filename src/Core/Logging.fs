@@ -1,10 +1,10 @@
-namespace Ionide.FsNative.VSCode.FSharp
+namespace Lattice.VSCode.FSharp
 
 [<AutoOpen>]
 module Logging =
     open Fable.Core
     open Fable.Import.VSCode.Vscode
-    open Ionide.FsNative.VSCode.FSharp.Node.Util
+    open Lattice.VSCode.FSharp.Node.Util
     open System
 
     type Level =

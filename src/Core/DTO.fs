@@ -1,4 +1,4 @@
-﻿namespace Ionide.FsNative.VSCode.FSharp
+﻿namespace Lattice.VSCode.FSharp
 
 [<ReflectedDefinition>]
 module DTO =
